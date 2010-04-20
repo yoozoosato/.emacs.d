@@ -1,3 +1,14 @@
+;; backup files
+(setq make-backup-files nil)
+(setq version-control nil)
+
+;; iswitchb
+(iswitchb-mode 1)
+
+;; emacs client
+(server-start)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 
 ;; load files
 ;;
@@ -13,8 +24,15 @@
 (load "~/.emacs.d/howm.el")
 ;; anything
 (load "~/.emacs.d/anything.el")
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
 ;; key-bind
 (load "~/.emacs.d/keybind.el")
 (load "~/.emacs.d/display-settings.el")
 (load "~/.emacs.d/calendar-settings.el")
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
