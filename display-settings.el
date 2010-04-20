@@ -1,0 +1,8 @@
+(setq inhibit-startup-message t)
+(setq visible-bell t)
+(setq blink-matching-paren t)
+(line-number-mode t)
+(column-number-mode t)
+(tool-bar-mode 0)
+(show-paren-mode t)
+(transient-mark-mode 1)
