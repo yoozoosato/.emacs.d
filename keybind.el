@@ -6,3 +6,5 @@
 ;; input non ascii characters in mini buffer while incremental-search
 (define-key isearch-mode-map "\C-k" 'isearch-edit-string)
 
+(global-set-key [f5] 'emoji-complete-pictogram)
+
