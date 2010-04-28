@@ -1,6 +1,6 @@
 ;; 
 ;; twittering-mode
 ;; 
-(require 'twittering-mode)
-(setq twittering-username "yoozoosato")
-(setq twittering-convert-fix-size 48)
+(when (require 'twittering-mode nil t)
+  (setq twittering-username "yoozoosato"
+	twittering-convert-fix-size 48))
