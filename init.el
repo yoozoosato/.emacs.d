@@ -32,6 +32,13 @@
 ;;
 ;; key-bind
 (load "~/.emacs.d/keybind.el")
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; other settings
 (load "~/.emacs.d/display-settings.el")
 (load "~/.emacs.d/calendar-settings.el")
 ;;
