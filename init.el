@@ -15,15 +15,15 @@
 ;; mona
 (load "~/.emacs.d/mona.el")
 ;; jde
-(load "~/.emacs.d/jde.el")
+(load "~/.emacs.d/jde-init.el")
 ;; pukiwiki-mode
-(load "~/.emacs.d/pukiwiki.el")
+(load "~/.emacs.d/pukiwiki-init.el")
 ;; twittering-mode
-(load "~/.emacs.d/twittering-mode.el")
+(load "~/.emacs.d/twittering-init.el")
 ;; howm
 (load "~/.emacs.d/howm.el")
 ;; anything
-(load "~/.emacs.d/anything.el")
+(load "~/.emacs.d/anything-init.el")
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
