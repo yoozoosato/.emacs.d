@@ -16,6 +16,8 @@
 (load "~/.emacs.d/mona.el")
 ;; jde
 (load "~/.emacs.d/jde-init.el")
+;; emacs-rails
+(load "~/.emacs.d/rails-init.el")
 ;; pukiwiki-mode
 (load "~/.emacs.d/pukiwiki-init.el")
 ;; twittering-mode
