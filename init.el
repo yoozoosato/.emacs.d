@@ -43,6 +43,8 @@
 ;;
 ;; mona
 (load "~/.emacs.d/mona.el")
+;; color-theme
+(load "~/.emacs.d/color-theme-init.el")
 ;; jde
 (load "~/.emacs.d/jde-init.el")
 ;; emacs-rails
