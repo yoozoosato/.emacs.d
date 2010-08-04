@@ -54,7 +54,7 @@
 ;; twittering-mode
 (load "~/.emacs.d/twittering-init.el")
 ;; howm
-(load "~/.emacs.d/howm.el")
+(load "~/.emacs.d/howm-init.el")
 ;; anything
 (load "~/.emacs.d/anything-init.el")
 ;; emoji.el
