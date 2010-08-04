@@ -57,6 +57,8 @@
 (load "~/.emacs.d/howm-init.el")
 ;; anything
 (load "~/.emacs.d/anything-init.el")
+;; gtags
+(load "~/.emacs.d/gtags-init.el")
 ;; emoji.el
 (require 'emoji)
 ;; auto-complete
