@@ -3,6 +3,7 @@
 ;; 
 (load-library "howm")
 (setq howm-directory "~/Dropbox/Documents/howm")
+(setq howm-menu-todo-num 10)
 (setq howm-menu-lang 'ja)
 (global-set-key "\C-c,," 'howm-menu)
 (global-set-key "\C-c,c" 'howm-create)
