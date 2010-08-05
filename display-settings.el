@@ -14,7 +14,7 @@
       (append (list
                '(width . 80)  ;; ウィンドウ幅
                '(height . 46) ;; ウィンドウ高さ
-               '(top . 20)    ;; 表示位置
+               '(top . 30)    ;; 表示位置
                '(left . 20)  ;; 表示位置
                )
               initial-frame-alist))
