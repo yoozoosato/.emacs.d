@@ -4,7 +4,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
 ;; key-bind
-(load "~/.emacs.d/keybind.el")
+;(load "~/.emacs.d/keybind.el")
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -37,6 +37,7 @@
    (let ((default-directory dir))
      (load (expand-file-name "subdirs.el") t t t))))
 (require 'init-loader)
+(init-loader-load "~/.emacs.d/inits")
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
@@ -47,9 +48,9 @@
 ;; color-theme
 (load "~/.emacs.d/color-theme-init.el")
 ;; jde
-(load "~/.emacs.d/jde-init.el")
+;(load "~/.emacs.d/jde-init.el")
 ;; emacs-rails
-(load "~/.emacs.d/rails-init.el")
+;(load "~/.emacs.d/rails-init.el")
 ;; pukiwiki-mode
 (load "~/.emacs.d/pukiwiki-init.el")
 ;; twittering-mode
