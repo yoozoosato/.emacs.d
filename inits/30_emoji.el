@@ -1,0 +1,2 @@
+;;emoji.el
+(require 'emoji)
