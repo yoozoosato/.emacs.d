@@ -11,7 +11,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
 ;; other settings
-(load "~/.emacs.d/display-settings.el")
+;;(load "~/.emacs.d/display-settings.el")
 (load "~/.emacs.d/calendar-settings.el")
 ;; backup files
 (setq make-backup-files nil)
@@ -36,6 +36,7 @@
    (setq load-path (cons dir load-path))
    (let ((default-directory dir))
      (load (expand-file-name "subdirs.el") t t t))))
+(require 'init-loader)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
@@ -58,7 +59,7 @@
 ;; anything
 (load "~/.emacs.d/anything-init.el")
 ;; gtags
-(load "~/.emacs.d/gtags-init.el")
+;(load "~/.emacs.d/gtags-init.el")
 ;; emoji.el
 (require 'emoji)
 ;; auto-complete
