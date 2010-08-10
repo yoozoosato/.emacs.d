@@ -8,4 +8,5 @@
 
 ;; emoji-mode
 (global-set-key [f4] 'emoji-complete-pictogram)
-
+;; show calendar
+(global-set-key [f3] 'calendar)

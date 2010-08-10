@@ -1,15 +1,26 @@
-;; 
+;;
 ;; jde
-;; 
-(setenv "JAVA_HOME" "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home")
+;;
+(cond
+ ((string-match "apple-darwin" system-configuration)
+  (setenv "JAVA_HOME" "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home")
+  )
+ ((string-match "linux" system-configuration)
+;; @TODO あとで調べる
+;  (setenv "JAVA_HOME" "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home")
+ )
+;((string-match "mingw" system-configuration)
+;必要ならここにWindows用の設定を書く
+; )
+)
 (require 'jde)
 
 
-;; name, email address. 
+;; name, email address.
 (setq user-full-name "SATO Yozo")
 (setq user-mail-address "yoozoosato@gmail.com")
 
-;; hook 
+;; hook
 (add-hook 'jde-mode-hook
           '(lambda ()
              (setq fill-column 80)
@@ -33,9 +44,8 @@
 (setq jde-import-auto-sort t)
 
 
-
 ;; prj.el template
-;; 
+;;
 ;(jde-project-file-version "1.0")
 ;(jde-set-variables
 ;  '(jde-ant-working-directory "./")

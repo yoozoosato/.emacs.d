@@ -9,7 +9,7 @@
    (let ((default-directory dir))
      (load (expand-file-name "subdirs.el") t t t))))
 
-;; change directory
+;; change directory to my home directory
 (cd "~/")
 
 ;; backup files
@@ -25,6 +25,3 @@
 ;; install-elisp
 (require 'install-elisp)
 (setq install-elisp-repository-directory "~/.emacs.d/lisp/")
-
-
-

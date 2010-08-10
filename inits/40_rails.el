@@ -7,7 +7,7 @@
 (define-key rails-minor-mode-map "\C-c\C-p" 'rails-lib:run-primary-switch)
 (define-key rails-minor-mode-map "\C-c\C-n" 'rails-lib:run-secondary-switch)
 (defun try-complete-abbrev (old)
-  (if (expand-abbrev) t nil)) 
+  (if (expand-abbrev) t nil))
 (setq hippie-expand-try-functions-list
       '(try-complete-abbrev
         try-complete-file-name
