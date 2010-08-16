@@ -1,0 +1,3 @@
+[submodule "lisp/auto-complete"]
+	path = lisp/auto-complete
+	url = http://github.com/m2ym/auto-complete.git
