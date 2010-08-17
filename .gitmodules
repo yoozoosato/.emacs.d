@@ -1,3 +1,9 @@
 [submodule "lisp/auto-complete"]
 	path = lisp/auto-complete
 	url = http://github.com/m2ym/auto-complete.git
+[submodule "lisp/emoji"]
+	path = lisp/emoji
+	url = http://github.com/imakado/emoji.git
+[submodule "lisp/twittering-mode"]
+	path = lisp/twittering-mode
+	url = http://github.com/hayamiz/twittering-mode.git
