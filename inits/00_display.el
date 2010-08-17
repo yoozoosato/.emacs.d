@@ -20,6 +20,3 @@
               initial-frame-alist))
 (setq default-frame-alist initial-frame-alist)
 
-;; buffer name
-(require 'uniquify)
-(setq uniquify-buffer-name-style 'forward)
