@@ -1,0 +1,5 @@
+;;
+;; cedet
+;; 
+(load "cedet")
+
