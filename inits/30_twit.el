@@ -2,5 +2,7 @@
 ;; twittering-mode
 ;; 
 (when (require 'twittering-mode nil t)
-  (setq twittering-username "yoozoosato"
-	twittering-convert-fix-size 48))
+  (setq twittering-auth-method 'xauth)
+;  (setq twittering-username "yoozoosato")
+;  (setq twittering-password "")
+)
