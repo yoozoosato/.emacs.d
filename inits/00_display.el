@@ -9,14 +9,21 @@
 (tool-bar-mode 0)
 (show-paren-mode t)
 (transient-mark-mode 1)
-;; 初期表示サイズと位置。環境によって振り分けをした方がいいかもしれない
-(setq initial-frame-alist
-      (append (list
-               '(width . 80)  ;; ウィンドウ幅
-               '(height . 46) ;; ウィンドウ高さ
-               '(top . 30)    ;; 表示位置
-               '(left . 20)  ;; 表示位置
-               )
-              initial-frame-alist))
-(setq default-frame-alist initial-frame-alist)
 
+
+;; default frame settings
+(cond
+ ((string-match "apple-darwin" system-configuration)
+  )
+ ((string-match "linux" system-configuration)
+  (setq initial-frame-alist
+	(append (list
+		 '(width . 80)
+		 '(height . 46)
+		 )
+		initial-frame-alist))
+  (setq default-frame-alist initial-frame-alist)
+  )
+ ((string-match "mingw" system-configuration)
+  )
+ )
