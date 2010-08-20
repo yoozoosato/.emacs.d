@@ -7,6 +7,18 @@
 [submodule "lisp/twittering-mode"]
 	path = lisp/twittering-mode
 	url = http://github.com/hayamiz/twittering-mode.git
+<<<<<<< HEAD
 [submodule "lisp/org-mode"]
 	path = lisp/org-mode
 	url = git://repo.or.cz/org-mode.git
+=======
+[submodule "lisp/rhtml-mode"]
+	path = lisp/rhtml-mode
+	url = http://github.com/eschulte/rhtml.git
+[submodule "lisp/jump"]
+	path = lisp/jump
+	url = http://github.com/eschulte/jump.el.git
+[submodule "lisp/rinari"]
+	path = lisp/rinari
+	url = http://github.com/eschulte/rinari.git
+>>>>>>> 8cc8396b5a6ca11c3b090d5376f28496e9e8288d
