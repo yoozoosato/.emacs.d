@@ -1,15 +1,24 @@
 ;;
-;; emacs settings
+;; display settings.
 ;;
+
+;; stop startup message
 (setq inhibit-startup-message t)
+
+;; when warn, screen flashes
 (setq visible-bell t)
+
+;; highlight another paren when cursor hits one
+(show-paren-mode t)
 (setq blink-matching-paren t)
+
+;; line-number and column-number
 (line-number-mode t)
 (column-number-mode t)
-(tool-bar-mode 0)
-(show-paren-mode t)
-(transient-mark-mode 1)
 
+;; hide toolbar and scroll bar
+(tool-bar-mode 0)
+(scroll-bar-mode nil)
 
 ;; default frame settings
 (cond

@@ -7,6 +7,7 @@
 (setq howm-menu-lang 'ja)
 (global-set-key "\C-c,," 'howm-menu)
 (global-set-key "\C-c,c" 'howm-create)
+(transient-mark-mode 1)
 (mapc
  (lambda (f)
    (autoload f
