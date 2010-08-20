@@ -23,6 +23,7 @@
 ;; hook
 (add-hook 'jde-mode-hook
           '(lambda ()
+             (setenv "LC_ALL" "en")  ;; エラーメッセージの英語化をして文字化け回避
              (setq fill-column 80)
              (auto-fill-mode t)
              (c-set-style "java")
@@ -42,7 +43,10 @@
 (setq jde-junit-testrunner-type "org.junit.runner.JUnitCore")
 ;; Code
 (setq jde-import-auto-sort t)
-
+;; abbrev-mode
+(setq jde-enable-abbrev-mode t)
+;; delete whitespaces
+;(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; prj.el template
 ;;

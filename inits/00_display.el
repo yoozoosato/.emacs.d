@@ -3,13 +3,21 @@
 ;;
 (setq inhibit-startup-message t)
 (setq visible-bell t)
+
+;; parens
+(show-paren-mode t)
 (setq blink-matching-paren t)
+
 (line-number-mode t)
 (column-number-mode t)
-(tool-bar-mode 0)
-(show-paren-mode t)
+
+;; 
+(tool-bar-mode nil)
+(scroll-bar-mode nil)
+
 (transient-mark-mode 1)
-;; 初期表示サイズと位置。環境によって振り分けをした方がいいかもしれない
+
+;; default frame. size and position.
 (setq initial-frame-alist
       (append (list
                '(width . 80)  ;; ウィンドウ幅

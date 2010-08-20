@@ -7,3 +7,6 @@
 [submodule "lisp/twittering-mode"]
 	path = lisp/twittering-mode
 	url = http://github.com/hayamiz/twittering-mode.git
+[submodule "lisp/org-mode"]
+	path = lisp/org-mode
+	url = git://repo.or.cz/org-mode.git
