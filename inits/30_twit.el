@@ -5,4 +5,5 @@
   (setq twittering-auth-method 'xauth)
 ;  (setq twittering-username "yoozoosato")
 ;  (setq twittering-password "")
+  (twittering-icon-mode t)
 )
