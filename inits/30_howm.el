@@ -5,7 +5,7 @@
 (setq howm-directory "~/Dropbox/Documents/howm")
 (setq howm-menu-todo-num 10)
 (setq howm-menu-lang 'ja)
-(setq howm-view-use-grep t)
+;; (setq howm-view-use-grep t)
 (global-set-key "\C-c,," 'howm-menu)
 (global-set-key "\C-c,c" 'howm-create)
 (transient-mark-mode t)
@@ -18,6 +18,7 @@
 	     howm-keyword-to-kill-ring))
 (setq howm-menu-refresh-after-save nil)
 (setq howm-refresh-after-save nil)
+
 ;; http://howm.sourceforge.jp/cgi-bin/hiki/hiki.cgi?SaveAndKillBuffer
 ;; C-cC-c で保存してバッファをキルする
 (defun my-save-and-kill-buffer ()
@@ -32,6 +33,7 @@
   '(progn
      (define-key howm-mode-map
        "\C-c\C-c" 'my-save-and-kill-buffer)))
+
 ;; いちいち消すのも面倒なので
 ;; 内容が 0 ならファイルごと削除する
 (if (not (memq 'delete-file-if-no-contents after-save-hook))
