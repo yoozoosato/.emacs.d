@@ -5,9 +5,10 @@
 (setq howm-directory "~/Dropbox/Documents/howm")
 (setq howm-menu-todo-num 10)
 (setq howm-menu-lang 'ja)
+(setq howm-view-use-grep t)
 (global-set-key "\C-c,," 'howm-menu)
 (global-set-key "\C-c,c" 'howm-create)
-(transient-mark-mode 1)
+(transient-mark-mode t)
 (mapc
  (lambda (f)
    (autoload f
