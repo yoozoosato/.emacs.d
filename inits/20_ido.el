@@ -1,12 +1,16 @@
 ;;
 ;; Interactively Do Things (highly recommended, but not strictly required)
 ;; http://www.emacswiki.org/emacs/InteractivelyDoThings
+
+;; do not confirm a new file or buffer
+(setq confirm-nonexistent-file-or-buffer nil)
 (require 'ido)
 (ido-mode t)
 (ido-everywhere t)
 (setq ido-enable-flex-matching t)
 (setq ido-confirm-unique-completion t)
 (setq ido-use-filename-at-point t)
+(setq ido-enable-tramp-completion nil)
 (icomplete-mode t) 
 
 ;; non-used 
