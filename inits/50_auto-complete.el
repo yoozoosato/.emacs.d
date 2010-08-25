@@ -8,7 +8,7 @@
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/lisp/auto-complete/dict")
 (ac-config-default)
 
-;;(global-set-key (kbd "M-_") 'auto-complete)
+(global-set-key (kbd "M-_") 'auto-complete)
 
 (setq ac-auto-start 2)       ; number of characters to show completion
 (setq ac-auto-show-menu 0.2) ; time to wait before showing completion
