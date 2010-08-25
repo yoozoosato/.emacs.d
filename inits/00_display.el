@@ -17,8 +17,10 @@
 (column-number-mode t)
 
 ;; hide toolbar and scroll bar
-(tool-bar-mode 0)
-(scroll-bar-mode nil)
+(cond
+ ((eq window-system 'x)
+  (tool-bar-mode nil)
+  (scroll-bar-mode nil)))
 
 ;; mark region 
 ;; http://www.mew.org/pipermail/mew-dist/2003-September/023693.html
