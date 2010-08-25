@@ -20,7 +20,8 @@
 (tool-bar-mode 0)
 (scroll-bar-mode nil)
 
-;; forgot
+;; mark region 
+;; http://www.mew.org/pipermail/mew-dist/2003-September/023693.html
 (transient-mark-mode 1)
 
 ;; default frame settings
