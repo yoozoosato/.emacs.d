@@ -1,6 +1,6 @@
 ;;
 ;; color-theme
-;;
+;; http://www.emacswiki.org/emacs/ColorTheme
 (require 'color-theme)
 ;; Carbon Emacsの場合、initializeが必要。Ubuntu 10.04のEmacs23では必要ない
 (cond
