@@ -16,11 +16,12 @@
 (line-number-mode t)
 (column-number-mode t)
 
-;; hide toolbar and scroll bar
-(cond
- ((eq window-system 'x)
-  (tool-bar-mode nil)
-  (scroll-bar-mode nil)))
+;; hide toolbar and scroll bar when using X window and Carbon emacs
+(when window-system 'x 'mac
+      (tool-bar-mode nil)
+      (scroll-bar-mode nil)
+      )
+  
 
 ;; mark region 
 ;; http://www.mew.org/pipermail/mew-dist/2003-September/023693.html
