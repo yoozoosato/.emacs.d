@@ -2,12 +2,10 @@
 ;; font settings for Carbon emacs
 ;;
 
-
 (if (eq window-system 'mac)
-	(set-face-attribute 'default nil
-						:family "Menlo"
-						:height 120)
-  )
+    (set-face-attribute 'default nil
+			:family "Menlo"
+			:height 120))
 
 ;; ;; fontset-mplus
 ;; (create-fontset-from-mac-roman-font
