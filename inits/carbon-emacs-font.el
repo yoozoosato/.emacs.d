@@ -2,19 +2,12 @@
 ;; font settings for Carbon emacs
 ;;
 
-;; (if (eq window-system 'mac)
-;;     (progn (require 'carbon-font)
-;; 	   (setq fixed-width-rescale nil)
-;; 	   (setq carbon-font-encode-family-list-courier
-;; 		 '((ascii . "courier")
-;; 		   (japanese-jisx0208 . "hiragino maru gothic")
-;; 		   (katakana-jisx0201 . "hiragino maru gothic")
-;; 		   (japanese-jisx0212 . "hiragino maru gothic pro")))
-;; 	   (carbon-font-create-fontset "courier"
-;; 				       carbon-font-defined-sizes
-;; 				       carbon-font-encode-family-list-courier)
-;; 	   (fixed-width-set-fontset "courier" 12)))
 
+(if (eq window-system 'mac)
+	(set-face-attribute 'default nil
+						:family "Menlo"
+						:height 120)
+  )
 
 ;; ;; fontset-mplus
 ;; (create-fontset-from-mac-roman-font
