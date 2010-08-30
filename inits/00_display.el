@@ -12,15 +12,15 @@
 (show-paren-mode t)
 (setq blink-matching-paren t)
 
-;; line-number and column-number
+;; line-number, column-number and menu-bar
 (line-number-mode t)
 (column-number-mode t)
+(menu-bar-mode nil)
 
 ;; hide toolbar and scroll bar when using X window and Carbon emacs
 (when window-system 'x 'mac
       (tool-bar-mode nil)
-      (scroll-bar-mode nil)
-      )
+      (scroll-bar-mode nil))
   
 
 ;; mark region 
