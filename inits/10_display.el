@@ -19,8 +19,8 @@
 
 ;; hide toolbar and scroll bar when using X window and Carbon emacs
 (when window-system 'x 'mac
-      (tool-bar-mode nil)
-      (scroll-bar-mode nil))
+      (tool-bar-mode -1)
+      (scroll-bar-mode -1))
   
 
 ;; mark region 

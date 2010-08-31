@@ -12,6 +12,7 @@
 (setq ido-confirm-unique-completion t)
 (setq ido-use-filename-at-point t)
 (setq ido-enable-tramp-completion nil)
+(setq ido-auto-merge-work-directories-length -1)
 (icomplete-mode t) 
 
 ;; non-used 
@@ -35,6 +36,7 @@
 ; sort ido filelist by mtime instead of alphabetically
 (add-hook 'ido-make-file-list-hook 'ido-sort-mtime)
 (add-hook 'ido-make-dir-list-hook 'ido-sort-mtime)
+(add-hook 'ido-make-dir-list-hook 'ido-strip-tramp-path)
 (defun ido-sort-mtime ()
   (setq ido-temp-list
 	(sort ido-temp-list 
