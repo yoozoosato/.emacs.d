@@ -13,7 +13,21 @@
 (setq ido-use-filename-at-point t)
 (setq ido-enable-tramp-completion nil)
 (setq ido-auto-merge-work-directories-length -1)
-(icomplete-mode t) 
+(icomplete-mode t)
+
+;; ido ignores
+;; "\\/ssh:" in ido-ignore-directories and ido-ignore-files are important
+;; to avoid ssh-password prompt when startup because tramp directory was
+;; cached in "~/.ido.last".
+;; http://dotfiles.org/~forcotton/.emacs
+(setq ido-ignore-buffers
+      '("\\` " "^\\*Messages\\*" "^\\*Help\\*" "^\\*Buffer"
+	      "^\\*.*Completions\\*$" "^\\*Ediff" "^\\*tramp" "^\\*cvs-"
+	      "_region_" " output\\*$" "^TAGS$" "^\*Ido")
+      ido-ignore-directories
+      '("\\`auto/" "\\.git/" "\\.svn/" "\\`CVS/" "\\`\\.\\./" "\\`\\./" "\\/ssh:")
+      ido-ignore-files
+      '("\\`auto/" "\\.git/" "\\.svn/" "_region_" "\\`CVS/" "\\`#" "\\`.#" "\\`\\.\\./" "\\`\\./" "\\/ssh:"))
 
 ;; non-used 
 ;;(ido-mode 'buffer)
