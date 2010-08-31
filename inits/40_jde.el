@@ -7,7 +7,7 @@
   )
  ((string-match "linux" system-configuration)
 ;; @TODO あとで調べる
-;  (setenv "JAVA_HOME" "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home")
+  (setenv "JAVA_HOME" "/usr/lib/jvm/java-6-sun-1.6.0.20")
  )
 ;((string-match "mingw" system-configuration)
 ;必要ならここにWindows用の設定を書く
