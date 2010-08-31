@@ -11,7 +11,7 @@
 (setq ido-enable-flex-matching t)
 (setq ido-confirm-unique-completion t)
 (setq ido-use-filename-at-point t)
-(setq ido-enable-tramp-completion nil)
+(setq ido-enable-tramp-completion t)
 (setq ido-auto-merge-work-directories-length -1)
 (icomplete-mode t)
 
@@ -25,9 +25,9 @@
 	      "^\\*.*Completions\\*$" "^\\*Ediff" "^\\*tramp" "^\\*cvs-"
 	      "_region_" " output\\*$" "^TAGS$" "^\*Ido")
       ido-ignore-directories
-      '("\\`auto/" "\\.git/" "\\.svn/" "\\`CVS/" "\\`\\.\\./" "\\`\\./" "\\/ssh:")
+      '("/ssh:" "\\`auto/" "\\.git/" "\\.svn/" "\\`CVS/" "\\`\\.\\./" "\\`\\./")
       ido-ignore-files
-      '("\\`auto/" "\\.git/" "\\.svn/" "_region_" "\\`CVS/" "\\`#" "\\`.#" "\\`\\.\\./" "\\`\\./" "\\/ssh:"))
+      '("/ssh:" "\\`auto/" "\\.git/" "\\.svn/" "_region_" "\\`CVS/" "\\`#" "\\`.#" "\\`\\.\\./" "\\`\\./"))
 
 ;; non-used 
 ;;(ido-mode 'buffer)
