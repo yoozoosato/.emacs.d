@@ -1,6 +1,7 @@
 ;;
 ;; Interactively Do Things (highly recommended, but not strictly required)
 ;; http://www.emacswiki.org/emacs/InteractivelyDoThings
+;; http://cvs.savannah.gnu.org/viewvc/*checkout*/emacs/emacs/lisp/ido.el
 
 ;; do not confirm a new file or buffer
 (setq confirm-nonexistent-file-or-buffer nil)
