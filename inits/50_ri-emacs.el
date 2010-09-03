@@ -1,7 +1,0 @@
-(setq ri-ruby-script "~/.emacs.d/lisp/ri-emacs.rb")
-(autoload 'ri "~/.emacs.d/lisp/ri-ruby.el" nil t)
-(add-hook 'ruby-mode-hook (lambda ()
-			    (local-set-key 'f1 'ri)
-			    (local-set-key "\M-\C-i" 'ri-ruby-complete-symbol)
-			    (local-set-key 'f4 'ri-ruby-show-args)
-			    ))
