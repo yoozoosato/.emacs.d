@@ -6,7 +6,7 @@
       '(
 	;; Genesis Lightning Talks
 	("lt" "http://wiki.somethingnew2.com/lt/index.php" nil euc-jp-dos)
-	("apr" "http://wiki.somethingnew2.com/apache2_2/index.php" nil utf8-dos)
+	("apr" "http://wiki.somethingnew2.com/apache2_2/index.php" nil utf-8-dos)
 	))
 
 ;; sava post data on local disc ('~/pukiwiki' is default directory)
