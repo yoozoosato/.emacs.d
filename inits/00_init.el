@@ -25,3 +25,11 @@
 ;; install-elisp
 (require 'install-elisp)
 (setq install-elisp-repository-directory "~/.emacs.d/lisp/")
+
+
+; coding
+(prefer-coding-system 'utf-8)
+
+(cond (window-system
+(setq x-select-enable-clipboard t)
+)) 
