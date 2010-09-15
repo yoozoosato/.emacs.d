@@ -22,14 +22,10 @@
 ;; emacs client
 (server-start)
 
-;; install-elisp
-(require 'install-elisp)
-(setq install-elisp-repository-directory "~/.emacs.d/lisp/")
-
-
 ; coding
 (prefer-coding-system 'utf-8)
 
+; clipborad (for Emacs23 on Ubuntu)
 (cond (window-system
-(setq x-select-enable-clipboard t)
-)) 
+       (setq x-select-enable-clipboard t)
+       ))

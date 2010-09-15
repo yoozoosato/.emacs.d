@@ -9,3 +9,10 @@
 (auto-install-update-emacswiki-package-name t)
 (auto-install-compatibility-setup)
 (setq ediff-setup-function 'ediff-setup-windows-plain)
+
+
+;; install-elisp
+(require 'install-elisp)
+(setq install-elisp-repository-directory "~/.emacs.d/lisp/")
+
+
