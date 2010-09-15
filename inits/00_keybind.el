@@ -11,3 +11,9 @@
 (global-set-key [f4] 'emoji-complete-pictogram)
 ;; show calendar
 (global-set-key [f3] 'calendar)
+
+;; key-chord
+(require 'key-chord)
+(setq key-chord-two-keys-delay 0.04)
+(key-chord-mode t)
+
