@@ -22,3 +22,8 @@
 (setq key-chord-two-keys-delay 0.04)
 (key-chord-mode t)
 
+;; sequential-command
+;; http://www.emacswiki.org/cgi-bin/wiki/download/sequential-command-config.el
+(require 'sequential-command-config)
+(global-set-key "\C-a" 'seq-home)
+(global-set-key "\C-e" 'seq-end)
