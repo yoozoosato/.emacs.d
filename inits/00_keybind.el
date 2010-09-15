@@ -17,3 +17,6 @@
 (setq key-chord-two-keys-delay 0.04)
 (key-chord-mode t)
 
+;; sequential-command-config
+(require 'sequential-command-config)
+(sequential-command-setup-keys)
