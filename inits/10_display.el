@@ -27,6 +27,10 @@
 ;; http://www.mew.org/pipermail/mew-dist/2003-September/023693.html
 (transient-mark-mode 1)
 
+;; 
+;; show file path and name on the top of the frame.
+(setq frame-title-format (format "%%f - Emacs@%s" (system-name)))
+
 ;; default frame settings
 (cond
  ((string-match "apple-darwin" system-configuration)
