@@ -1,3 +1,11 @@
+ac-comphist.dat
 anything-c-adaptive-history
 tramp
 *.elc
+lisp/auto-install/*
+lisp/*.el
+lisp/howm-1.3.8
+lisp/php-mode-1.5.0
+lisp/yasnippet-0.6.1c
+
+
