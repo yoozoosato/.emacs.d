@@ -11,3 +11,4 @@
 (setq calendar-location-name "Tokyo, JPN")
 (setq diary-mail-addr "yoozoosato@gmail.com")
 (setq diary-file "~/Dropbox/Documents/diary")
+(setq mark-diary-entries-in-calendar nil)
