@@ -1,4 +1,9 @@
 ;;
+;; cedet
+;; 
+(load "cedet")
+
+;;
 ;; jde
 ;;
 (cond

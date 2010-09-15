@@ -1,5 +1,0 @@
-;;
-;; cedet
-;; 
-(load "cedet")
-
