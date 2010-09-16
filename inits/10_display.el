@@ -13,19 +13,22 @@
 (setq blink-matching-paren t)
 
 ;; line-number, column-number and menu-bar
-(line-number-mode t)
-(column-number-mode t)
-(menu-bar-mode nil)
+(line-number-mode 1)
+(column-number-mode 1)
+(menu-bar-mode 0)
 
 ;; hide toolbar and scroll bar when using X window and Carbon emacs
 (when window-system 'x 'mac
       (tool-bar-mode -1)
       (scroll-bar-mode -1))
-  
 
 ;; mark region 
 ;; http://www.mew.org/pipermail/mew-dist/2003-September/023693.html
 (transient-mark-mode 1)
+
+;; 
+;; show file path and name on the top of the frame.
+(setq frame-title-format (format "%%f - Emacs@%s" (system-name)))
 
 ;; default frame settings
 (cond
@@ -39,6 +42,7 @@
 		 )
 		initial-frame-alist))
   (setq default-frame-alist initial-frame-alist)
+  (set-frame-parameter nil 'alpha 75)
   )
  ((string-match "mingw" system-configuration)
   )

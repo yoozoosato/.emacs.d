@@ -8,6 +8,7 @@
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/lisp/auto-complete/dict")
 (ac-config-default)
 
+
 (global-set-key (kbd "M-_") 'auto-complete)
 
 (setq ac-auto-start 2)       ; number of characters to show completion
@@ -17,7 +18,7 @@
                    ac-source-gtags
                    ac-source-words-in-buffer))
 (add-to-list 'ac-modes 'javascript-mode)
-(add-to-list 'ac-modes 'java-mode)
+(add-to-list 'ac-modes 'jde-mode)
 (add-to-list 'ac-modes 'ruby-mode)
 (add-to-list 'ac-modes 'html-helper-mode)
 (add-to-list 'ac-modes 'emacs-lisp-mode)
@@ -34,6 +35,13 @@
           '(lambda ()
              (setq ac-sources '(ac-source-words-in-buffer))))
 
+
+;; pop-up help
+;; http://www.emacswiki.org/emacs-en/PosTip
+(setq ac-quick-help-prefer-x t)
+(require 'pos-tip)
+
+
 ;; ; for objc-mode
 ;; (require 'etags-table)
 ;; (add-to-list  'etags-table-alist
@@ -48,5 +56,6 @@
 ;; (add-hook 'objc-mode-hook
 ;;           (lambda ()
 ;;             (push 'ac-source-etags-table ac-sources)))
+
 
 
