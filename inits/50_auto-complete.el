@@ -35,6 +35,10 @@
           '(lambda ()
              (setq ac-sources '(ac-source-words-in-buffer))))
 
+; for jde-mode
+(add-hook 'java-mode-hook
+          '(lambda ()
+            (push 'ac-source-etags-table ac-sources)))
 
 ;; pop-up help
 ;; http://www.emacswiki.org/emacs-en/PosTip
