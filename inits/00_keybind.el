@@ -18,6 +18,7 @@
 (global-set-key [f3] 'calendar)
 
 ;; key-chord
+;; http://www.emacswiki.org/emacs/key-chord.el
 (require 'key-chord)
 (setq key-chord-two-keys-delay 0.04)
 (key-chord-mode t)
