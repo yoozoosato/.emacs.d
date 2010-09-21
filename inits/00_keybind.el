@@ -30,10 +30,15 @@
 ;; accelerate
 ;; http://www.emacswiki.org/cgi-bin/wiki/accelerate.el
 (require 'accelerate)
-
 (accelerate previous-line '(1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
 (accelerate next-line '(1 1 1 1 1  1 1 1 1 2 2 2 2 2 2 2 3 3))
 (accelerate smooth-scroll-down '(1 1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
 (accelerate smooth-scroll-up '(1 1 1 1 1 2 2 2 2 2 2 2 3 3))
 (accelerate dired-previous-line '(1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
 (accelerate dired-next-line '(1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
+
+;; dynamic macro
+;; http://www.pitecan.com/DynamicMacro/
+(defconst *dmacro-key* "\C-t" "繰返し指定キー") ; @TODO fix this
+(global-set-key *dmacro-key* 'dmacro-exec)
+(autoload 'dmacro-exec "dmacro" nil t)
