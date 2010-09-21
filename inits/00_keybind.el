@@ -19,9 +19,20 @@
 
 ;; key-chord
 (require 'key-chord)
-(setq key-chord-two-keys-delay 0.04)
+(setq key-chord-two-keys-delay 0.1)
 (key-chord-mode t)
 
 ;; sequential-command-config
 (require 'sequential-command-config)
 (sequential-command-setup-keys)
+
+;; accelerate
+;; http://www.emacswiki.org/cgi-bin/wiki/accelerate.el
+(require 'accelerate)
+
+(accelerate previous-line '(1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
+(accelerate next-line '(1 1 1 1 1  1 1 1 1 2 2 2 2 2 2 2 3 3))
+(accelerate smooth-scroll-down '(1 1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
+(accelerate smooth-scroll-up '(1 1 1 1 1 2 2 2 2 2 2 2 3 3))
+(accelerate dired-previous-line '(1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
+(accelerate dired-next-line '(1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
