@@ -40,6 +40,12 @@
           '(lambda ()
             (push 'ac-source-etags-table ac-sources)))
 
+; for ruby-mode
+(add-hook 'ruby-mode-hook
+          (lambda ()
+            (add-to-list 'ac-sources 'ac-source-rsense-method)
+            (add-to-list 'ac-sources 'ac-source-rsense-constant)))
+
 ;; pop-up help
 ;; http://www.emacswiki.org/emacs-en/PosTip
 (setq ac-quick-help-prefer-x t)
