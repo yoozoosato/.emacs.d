@@ -42,3 +42,5 @@
                   (perltidy-region)))
 (global-set-key "\C-ct" 'perltidy-region)
 (global-set-key "\C-c\C-t" 'perltidy-defun)
+
+(require 'set-perl5lib)
