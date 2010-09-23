@@ -37,8 +37,9 @@
 (accelerate dired-previous-line '(1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
 (accelerate dired-next-line '(1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
 
-;; dynamic macro
+;; Dynamic macro
 ;; http://www.pitecan.com/DynamicMacro/
-(defconst *dmacro-key* "\C-t" "繰返し指定キー") ; @TODO fix this
+;; C-c C-v で繰り返し
+(defconst *dmacro-key* "\C-c\C-v");; "\C-y")
 (global-set-key *dmacro-key* 'dmacro-exec)
 (autoload 'dmacro-exec "dmacro" nil t)
