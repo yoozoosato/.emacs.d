@@ -14,3 +14,5 @@
 (add-hook 'ruby-mode-hook
           (lambda ()
             (local-set-key (kbd "C-c .") 'ac-complete-rsense)))
+(setq rsense-rurema-home "~/src/rurema")
+
