@@ -22,3 +22,6 @@
 [submodule "lisp/rvm"]
 	path = lisp/rvm
 	url = http://github.com/senny/rvm.el.git
+[submodule "lisp/Goby"]
+	path = lisp/Goby
+	url = http://github.com/kazu-yamamoto/Goby.git
