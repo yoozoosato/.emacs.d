@@ -15,3 +15,12 @@
    ("prefix L"  . ielm)
    ("M-m"       . e2wm:pst-window-select-main-command)
    ) e2wm:prefix-key)
+
+
+(setq e2wm:c-code-winfo
+  '((:name main)
+    (:name files :plugin files)
+    (:name history :plugin clock)
+    (:name sub :buffer "*info*" :default-hide t)
+    (:name imenu :plugin imenu :default-hide nil))
+  )
