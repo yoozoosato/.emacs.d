@@ -40,9 +40,6 @@
   (interactive)
   (save-excursion (mark-defun)
                   (perltidy-region)))
-(global-set-key "\C-ct" 'perltidy-region)
-(global-set-key "\C-c\C-t" 'perltidy-defun)
-
 
 ;; for perl5 lib
 ;; (install-elisp "http://coderepos.org/share/export/4903/lang/elisp/set-perl5lib/set-perl5lib.el")

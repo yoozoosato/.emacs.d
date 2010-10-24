@@ -29,3 +29,12 @@
 (cond (window-system
        (setq x-select-enable-clipboard t)
        ))
+
+;; alpha
+;; (defun ik:toggle-opacity ()
+;;   (interactive)
+;;   (when window-system
+;;     (ignore-errors
+;;       (if (= (assoc-default 'alpha (frame-parameters)) 100)
+;;           (set-frame-parameter nil 'alpha 80)
+;;         (set-frame-parameter nil 'alpha 100)))))
