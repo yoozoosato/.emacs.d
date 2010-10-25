@@ -68,7 +68,8 @@
 (global-set-key *dmacro-key* 'dmacro-exec)
 
 ;; window manager.
-(global-set-key (kbd "M-+") 'e2wm:start-management)
+(global-set-key (kbd "C-<f12>") 'e2wm:start-management)
+(global-set-key (kbd "C-<f11>") 'e2wm:stop-management)
 (windmove-default-keybindings)
 ;; vi like bindings
 (global-set-key (kbd "C-S-j") 'windmove-down)
