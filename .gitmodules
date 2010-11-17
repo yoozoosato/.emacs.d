@@ -25,3 +25,6 @@
 [submodule "lisp/Goby"]
 	path = lisp/Goby
 	url = http://github.com/kazu-yamamoto/Goby.git
+[submodule "lisp/magit"]
+	path = lisp/magit
+	url = git://gitorious.org/magit/mainline.git
