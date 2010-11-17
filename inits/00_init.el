@@ -30,6 +30,9 @@
        (setq x-select-enable-clipboard t)
        ))
 
+;; find-file-at-point, it helps opening .el files via init-log buffer.
+(ffap-bindings)
+
 ;; alpha
 ;; (defun ik:toggle-opacity ()
 ;;   (interactive)
