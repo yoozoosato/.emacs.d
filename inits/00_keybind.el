@@ -78,7 +78,7 @@
 (global-set-key (kbd "C-S-h") 'windmove-left)
 
 ;; key-chord
-;; (auto-install-from-url "http://www.emacswiki.org/emacs/key-chord.el")
+;; (install-elisp-from-emacswiki "http://www.emacswiki.org/emacs/key-chord.el")
 (require 'key-chord)
 (setq key-chord-two-keys-delay 0.1)
 (key-chord-mode t)
