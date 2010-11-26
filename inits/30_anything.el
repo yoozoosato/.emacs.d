@@ -1,6 +1,7 @@
 ;; 
 ;; anything
-;;
+;; (auto-install-batch anything)
+(require 'anything)
 (require 'anything-config)
 (require 'anything-migemo)
 (global-set-key "\C-x;" 'anything)
