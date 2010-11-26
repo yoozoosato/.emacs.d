@@ -1,6 +1,6 @@
 ;;
 ;; view-mode
-;; http://www.emacswiki.org/emacs/ViewMode
+;; (install-elisp-from-emacswiki "http://www.emacswiki.org/emacs/viewer.el")
 ;; Emacs Technic Bible p.216
 
 (setq view-mode t)
