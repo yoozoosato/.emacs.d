@@ -16,16 +16,15 @@
    ("M-m"       . e2wm:pst-window-select-main-command)
    ) e2wm:prefix-key)
 
-
-;; ;; for 1024x768
-(setq e2wm:c-code-recipe
-      '(| (:left-max-size 35)
-	  (- (:upper-size-ratio 0.7)
-	     (- (:upper-size-ratio 0.6)
-		files imenu)
-	     history)
-	  (- (:upper-size-ratio 0.7)
-	     main sub)))
+;; ;; ;; for 1024x768
+;; (setq e2wm:c-code-recipe
+;;       '(| (:left-max-size 35)
+;; 	  (- (:upper-size-ratio 0.7)
+;; 	     (- (:upper-size-ratio 0.6)
+;; 		files imenu)
+;; 	     history)
+;; 	  (- (:upper-size-ratio 0.7)
+;; 	     main sub)))
 
 (setq e2wm:c-code-winfo
   '((:name main)

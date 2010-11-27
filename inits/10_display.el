@@ -42,7 +42,7 @@
 		 )
 		initial-frame-alist))
   (setq default-frame-alist initial-frame-alist)
-  (set-frame-parameter nil 'alpha 75)
+  ;(set-frame-parameter nil 'alpha 75)
   )
  ((string-match "mingw" system-configuration)
   )
