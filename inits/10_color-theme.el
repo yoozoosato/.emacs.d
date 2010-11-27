@@ -9,6 +9,8 @@
   )
  ((string-match "linux" system-configuration)
   ; とりあえずUbuntuでは何もする必要ない
+  ; 何もする必要ないはずなんだが、10.10でエラーになったので回避用に入れてみる
+  (color-theme-initialize)
  )
 ;((string-match "mingw" system-configuration)
 ;必要ならここにWindows用の設定を書く
