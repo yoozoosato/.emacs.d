@@ -3,8 +3,6 @@
 ;; (auto-install-from-url "http://github.com/kiwanami/emacs-inertial-scroll/raw/master/inertial-scroll.el")
 
 (require 'inertial-scroll)
-(inertias-global-minor-mode t)
-
 (setq inertias-initial-velocity 50)
 (setq inertias-friction 120)
 (setq inertias-update-time 50)
@@ -24,3 +22,4 @@
          ("M-v"     . inertias-down)
          ) inertias-prefix-key))
 
+(inertias-global-minor-mode t)
