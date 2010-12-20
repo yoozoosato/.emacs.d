@@ -5,7 +5,7 @@
 (setq pukiwiki-site-list
       '(
 	;; Genesis Lightning Talks
-	("lt" "http://wiki.somethingnew2.com/lt/index.php" nil euc-jp-dos)
+	("lt" "http://genesislightningtalks.com/index.php" nil euc-jp-dos)
 	("apr" "http://wiki.somethingnew2.com/apache2_2/index.php" nil utf-8-dos)
 	("main" "http://9f-ubuntu/~ysato/main/index.php" nil utf-8-unix)
 	))
