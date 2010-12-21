@@ -28,6 +28,3 @@
 [submodule "lisp/magit"]
 	path = lisp/magit
 	url = git://gitorious.org/magit/mainline.git
-[submodule "lisp/emacs-skype"]
-	path = lisp/emacs-skype
-	url = https://github.com/kiwanami/emacs-skype.git
