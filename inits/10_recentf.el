@@ -1,6 +1,6 @@
 ;;
 ;; recentf-mode
-;; 
+;; (install-elisp-from-emacswiki "recentf-ext.el")
 
 ;; ignore files using tramp
 ;; http://homepage.mac.com/zenitani/elisp-j.html#recentf 

@@ -13,5 +13,6 @@
 	     (setq c-indent-level 4)
 	     (setq tab-width 4)
 	     (setq-default tab-width 4)
-	     (setq indent-tabs-mode t)
+	     (setq indent-tabs-mode nil)
 	     (setq php-manual-url "http://www.phppro.jp/phpmanual/")))
+
