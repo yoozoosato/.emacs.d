@@ -83,3 +83,7 @@
 (require 'key-chord)
 (setq key-chord-two-keys-delay 0.1)
 (key-chord-mode t)
+
+;; key-bind using key-chord
+(key-chord-define-global "jk" 'view-mode)
+(key-chord-define-global "hj" 'undo)

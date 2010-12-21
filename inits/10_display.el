@@ -17,6 +17,9 @@
 (column-number-mode 1)
 (menu-bar-mode 0)
 
+;; default tab width
+(setq-default tab-width 4)
+
 ;; hide toolbar and scroll bar when using X window and Carbon emacs
 (when window-system 'x 'mac
       (tool-bar-mode -1)
