@@ -28,3 +28,6 @@
 [submodule "lisp/magit"]
 	path = lisp/magit
 	url = git://gitorious.org/magit/mainline.git
+[submodule "lisp/linger"]
+	path = lisp/linger
+	url = https://github.com/lugecy/lingr-el.git
