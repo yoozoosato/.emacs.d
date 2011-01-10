@@ -1,6 +1,6 @@
 ;; intertial scroll.
-;; (auto-install-from-url "http://github.com/kiwanami/emacs-deferred/raw/master/deferred.el")
-;; (auto-install-from-url "http://github.com/kiwanami/emacs-inertial-scroll/raw/master/inertial-scroll.el")
+;; (auto-install-from-url "https://github.com/kiwanami/emacs-deferred/raw/master/deferred.el")
+;; (auto-install-from-url "https://github.com/kiwanami/emacs-inertial-scroll/raw/master/inertial-scroll.el")
 
 (require 'inertial-scroll)
 (setq inertias-initial-velocity 50)
