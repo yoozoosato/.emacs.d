@@ -1,7 +1,7 @@
 ;; window layout manager.
 ;; 
-;; (auto-install-from-url "http://github.com/kiwanami/emacs-window-layout/raw/master/window-layout.el")
-;; (auto-install-from-url "http://github.com/kiwanami/emacs-window-manager/raw/master/e2wm.el")
+;; (auto-install-from-url "https://github.com/kiwanami/emacs-window-layout/raw/master/window-layout.el")
+;; (auto-install-from-url "https://github.com/kiwanami/emacs-window-manager/raw/master/e2wm.el")
 ;; (auto-install-from-url "https://github.com/kiwanami/emacs-window-manager/raw/master/e2wm-config.el")
 (require 'e2wm)
 (e2wm:add-keymap 
