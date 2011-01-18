@@ -9,6 +9,6 @@
 
 ;; 
 ;; isearch-occur
-;; (install-elisp-from-emacswiki "occur-schroeder.el")
+;; (install-elisp-from-emacswiki "occur-schroeder.el)
 (require 'occur-schroeder)
 (define-key isearch-mode-map (kbd "M-s o") 'isearch-occur)
