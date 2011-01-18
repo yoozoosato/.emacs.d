@@ -88,9 +88,3 @@
 (key-chord-define-global "jk" 'view-mode)
 (key-chord-define-global "hj" 'undo)
 
-;; occur
-(defun occur-at-point() 
-"point のある位置の単語を occur にかける" 
-(interactive) 
-(occur (thing-at-point 'word))) 
-(global-set-key "\C-co" 'occur-at-point) 
