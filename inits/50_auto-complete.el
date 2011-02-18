@@ -14,7 +14,7 @@
                    ac-source-dictionary
                    ac-source-gtags
                    ac-source-words-in-buffer))
-(add-to-list 'ac-modes 'javascript-mode)
+;(add-to-list 'ac-modes 'javascript-mode)
 (add-to-list 'ac-modes 'jde-mode)
 (add-to-list 'ac-modes 'ruby-mode)
 (add-to-list 'ac-modes 'html-helper-mode)
