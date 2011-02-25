@@ -6,6 +6,7 @@
 (add-hook 'js2-mode-hook
           '(lambda ()
 ;			 (ac-mode t)
+			 (set-fill-column 80)
              (setq js2-basic-offset 2)
 			 (setq js2-cleanup-whitespace t)
 			 ))
@@ -20,3 +21,4 @@
         indent-tabs-mode nil
         c-basic-offset 2)
   (c-toggle-auto-state 0))
+
