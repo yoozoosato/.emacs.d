@@ -7,3 +7,19 @@
 (autoload 'ansi-color-for-comint-mode-on "ansi-color"
    "Set `ansi-color-for-comint-mode' to t." t)
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
+(add-hook 'comint-output-filter-functions 'comint-watch-for-password-prompt)
+
+
+;; 
+;; shell-pop
+;; (install-elisp-from-emacswiki "shell-pop.el")
+(require 'shell-pop)
+(shell-pop-set-internal-mode "shell")
+(shell-pop-set-internal-mode-shell "/bin/zsh")
+(global-set-key (kbd "C-<f10>") 'shell-pop)
+
+
+;; 
+;; multi-shell
+;; (install-elisp-from-emacswiki "multi-shell.el")
+(require 'multi-shell)
