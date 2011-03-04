@@ -5,13 +5,12 @@
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
 (add-hook 'js2-mode-hook
           '(lambda ()
-;			 (ac-mode t)
-			 (set-fill-column 80)
+             (set-fill-column 80)
              (setq js2-basic-offset 2)
-			 (setq js2-cleanup-whitespace t)
-			 ))
+             (setq js2-cleanup-whitespace t)
+             ))
 
-;; 
+;;
 ;; espresso-mode
 ;; (auto-install-from-url "http://download-mirror.savannah.gnu.org/releases/espresso/espresso.el")
 (autoload 'espresso-mode "espresso")
@@ -21,4 +20,3 @@
         indent-tabs-mode nil
         c-basic-offset 2)
   (c-toggle-auto-state 0))
-
