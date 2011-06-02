@@ -28,3 +28,6 @@
 [submodule "lisp/magit"]
 	path = lisp/magit
 	url = git://gitorious.org/magit/mainline.git
+[submodule "lisp/navi2ch"]
+	path = lisp/navi2ch
+	url = git://navi2ch.git.sourceforge.net/gitroot/navi2ch/navi2ch
