@@ -31,3 +31,6 @@
 [submodule "lisp/navi2ch"]
 	path = lisp/navi2ch
 	url = git://navi2ch.git.sourceforge.net/gitroot/navi2ch/navi2ch
+[submodule "lisp/nyan-mode"]
+	path = lisp/nyan-mode
+	url = https://github.com/TeMPOraL/nyan-mode.git
