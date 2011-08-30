@@ -34,3 +34,6 @@
 [submodule "lisp/nyan-mode"]
 	path = lisp/nyan-mode
 	url = https://github.com/TeMPOraL/nyan-mode.git
+[submodule "lisp/color-theme-tangotango"]
+	path = lisp/color-theme-tangotango
+	url = https://github.com/juba/color-theme-tangotango.git

@@ -16,13 +16,13 @@
 ;; http://www24.atwiki.jp/anything/m/pages/13.html?guid=on#id_b64e0dd3
 (setq anything-sources
       '(anything-c-source-buffers+
-        anything-c-source-colors
         anything-c-source-recentf
-;;         anything-c-source-man-pages
-        anything-c-source-emacs-commands
-        anything-c-source-emacs-functions
+        anything-c-source-kill-ring
         anything-c-source-files-in-current-dir
 ;;         anything-c-source-mac-spotlight
 ;;         anything-c-source-google-suggest
-        anything-c-source-kill-ring
+;;         anything-c-source-emacs-commands
+;;         anything-c-source-emacs-functions
+;;         anything-c-source-colors
+;;         anything-c-source-man-pages
         ))
