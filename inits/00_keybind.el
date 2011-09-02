@@ -88,3 +88,6 @@
 (key-chord-define-global "jk" 'view-mode)
 (key-chord-define-global "hj" 'undo)
 
+;; for Emacs23 on Mac OS X
+(setq ns-command-modifier (quote meta))
+(setq ns-alternate-modifier (quote super))
