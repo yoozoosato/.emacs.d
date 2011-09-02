@@ -1,6 +1,20 @@
 ;;
 ;; mew
 ;; http://www.mew.org/
+;; Mail Reader for Emacs
+;;
+;; how to install
+;; cd ~/.emacs.d
+;; git submodule add git://github.com/kazu-yamamoto/Mew.git ./lisp/mew
+;; cd ./lisp/mew
+;; ./configure --with-emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
+;; make
+(autoload 'mew "mew" nil t)
+(autoload 'mew-send "mew" nil t)
+
+;; add mewl exec path
+(setq exec-path (cons "~/.emacs.d/lisp/mew/bin" exec-path))
+
 (setq mew-draft-mode-hook (function (lambda () (auto-fill-mode 1))))
 (add-hook 'mew-draft-mode-hook
 	  '(lambda ()
