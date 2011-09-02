@@ -21,9 +21,9 @@
 ;; show calendar
 (global-set-key [f3] 'calendar)
 
-;; for work-log
-(global-set-key [f6] 'worklog-quick-start)
-(global-set-key [f7] 'worklog-quick-stop)
+;; ;; for work-log
+;; (global-set-key [f6] 'worklog-quick-start)
+;; (global-set-key [f7] 'worklog-quick-stop)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; perl-mode
