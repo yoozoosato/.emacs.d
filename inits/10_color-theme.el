@@ -16,4 +16,5 @@
 ;必要ならここにWindows用の設定を書く
 ; )
 )
+;; (color-theme-tangotango)
 (color-theme-clarity)

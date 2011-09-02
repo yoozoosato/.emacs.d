@@ -7,6 +7,7 @@
 
 ;; when warn, screen flashes
 (setq visible-bell t)
+(setq ring-bell-function 'ignore)
 
 ;; highlight another paren when cursor hits one
 (show-paren-mode t)
