@@ -7,8 +7,8 @@
 ;; cd ~/.emacs.d
 ;; git submodule add git://github.com/kazu-yamamoto/Mew.git ./lisp/mew
 ;; cd ./lisp/mew
-;; ./configure --with-emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
-;; make
+;; ./configure --prefix=/Applications/Emacs.app/Contents/MacOS
+;;
 (autoload 'mew "mew" nil t)
 (autoload 'mew-send "mew" nil t)
 
