@@ -4,8 +4,16 @@
 (load-library "howm")
 (setq howm-directory "~/Dropbox/Documents/howm")
 (setq howm-menu-todo-num 10)
+
+;; not showing 'done' on top menu
+;; http://weboo-returns.com/blog/hide-closed-todo-on-howm/
+(setq howm-todo-menu-types "[-+~!]")
+
 (setq howm-menu-lang 'ja)
+(setq howm-process-coding-system 'utf-8)
 ;;(setq howm-view-use-grep t)
+;;(setq howm-view-grep-extended-option "-E")
+
 (global-set-key "\C-c,," 'howm-menu)
 (global-set-key "\C-c,c" 'howm-create)
 (mapc
