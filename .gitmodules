@@ -43,3 +43,6 @@
 [submodule "lisp/calfw"]
 	path = lisp/calfw
 	url = https://github.com/kiwanami/emacs-calfw.git
+[submodule "lisp/skype"]
+	path = lisp/skype
+	url = https://github.com/kiwanami/emacs-skype.git
