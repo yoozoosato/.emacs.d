@@ -16,12 +16,14 @@
 (setq navi2ch-article-auto-range nil)
 (setq navi2ch-list-stay-list-window t)
 (setq navi2ch-list-window-width 37)
-(setq navi2ch-board-expire-date nil)
+(setq navi2ch-board-expire-date nil) ;; 30日以上経過しても削除しない
 
+;; 3ペインで起動したいのだが、上手く動かない・・・
 (add-hook 'navi2ch-after-startup-hook
           (lambda ()
             (navi2ch-three-pane)))
 
+;; 起動時にスプラッシュスクリーンを表示しない
 (setq navi2ch-display-splash-screen nil)
 
 ;; 連続改行を消す
@@ -36,6 +38,7 @@
 (add-hook 'navi2ch-article-arrange-message-hook
           'navi2ch-article-shrink-newlines)
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 勢いソート
 ;; http://my.opera.com/hirohiso/blog/2010/11/27/navi2ch
 (defadvice navi2ch-bm-sort (around my-navi2ch-bm-sort)
@@ -74,3 +77,8 @@
                                  (navi2ch-bm-get-property-internal (point))))))))
        (setq resnum (* resnum resnum))
        (/ (* resnum 100) exittime))) nil))
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; スレ保存ディレクトリ
+(setq navi2ch-directory "~/Dropbox/Documents/.navi2ch")
