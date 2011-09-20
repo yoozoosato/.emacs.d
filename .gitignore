@@ -13,7 +13,8 @@ lisp/ecb-2.32/
 lisp/jdee-2.4.0.1/
 lisp/linger/
 lisp/rhtml/
-listp/auto-complete
+lisp/auto-complete
+lisp/cedet-1.0
 
 games
 .DS_Store
