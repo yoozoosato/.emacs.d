@@ -25,9 +25,9 @@
 ;; cd ~/.emacs.d
 ;; git submodule add https://github.com/kiwanami/emacs-calfw/ ./lisp/calfw
 ;;
-(require 'calfw)
-(cfw:open-calendar-buffer)
+;; (require 'calfw)
+;; (cfw:open-calendar-buffer)
 
-(require 'calfw-howm)
-(cfw:install-howm-schedules)
-(define-key howm-mode-map (kbd "M-C") 'cfw:open-howm-calendar)
+;; (require 'calfw-howm)
+;; (cfw:install-howm-schedules)
+;; (define-key howm-mode-map (kbd "M-C") 'cfw:open-howm-calendar)
