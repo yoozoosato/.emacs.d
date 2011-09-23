@@ -1,6 +1,6 @@
 ;;
 ;; anything
-;; (auto-install-batch anything)
+;; (auto-install-batch "anything")
 (require 'anything)
 (require 'anything-config)
 (require 'anything-migemo)
