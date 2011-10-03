@@ -1,10 +1,7 @@
 ;;
 ;; anything
 ;; (auto-install-batch "anything")
-(require 'anything)
-(require 'anything-config)
-(require 'anything-migemo)
-;;(require 'anything-startup)
+(require 'anything-startup)
 (global-set-key "\C-x;" 'anything)
 (global-set-key "\C-x:" 'anything-resume)
 (anything-iswitchb-setup)
