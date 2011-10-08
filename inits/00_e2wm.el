@@ -37,8 +37,8 @@
 (setq e2wm:c-code-winfo
   '((:name main)
     (:name files :plugin files)
-    ;; (:name history :plugin history-list)
-    (:name history :plugin clock)
+    (:name history :plugin history-list)
+    ;; (:name history :plugin clock)
     (:name sub :buffer "*info*" :default-hide t)
     (:name imenu :plugin imenu :default-hide nil))
   )
