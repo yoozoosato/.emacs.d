@@ -40,6 +40,3 @@
 [submodule "lisp/calfw"]
 	path = lisp/calfw
 	url = https://github.com/kiwanami/emacs-calfw.git
-[submodule "lisp/mew"]
-	path = lisp/mew
-	url = https://github.com/kazu-yamamoto/Mew.git
