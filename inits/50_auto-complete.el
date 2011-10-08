@@ -40,11 +40,15 @@
 ; for ruby-mode
 (add-hook 'ruby-mode-hook
           (lambda ()
-            (add-to-list 'ac-sources 'ac-source-rsense-method)
-            (add-to-list 'ac-sources 'ac-source-rsense-constant)))
+			(require 'rcodetools)
+			(require 'auto-complete-ruby)
+            ;; (add-to-list 'ac-sources 'ac-source-rsense-method)
+            ;; (add-to-list 'ac-sources 'ac-source-rsense-constant)
+			(setq ac-omni-completion-sources '(("\\.\\=" . (ac-source-rcodetools))))))
 
 ;; pop-up help
 ;; http://www.emacswiki.org/emacs-en/PosTip
+;; (install-elisp-from-emacswiki "pos-tip.el")
 (setq ac-quick-help-prefer-x t)
 (require 'pos-tip)
 
