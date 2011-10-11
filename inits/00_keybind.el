@@ -17,7 +17,8 @@
 ;; function keys
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; emoji-mode
-(global-set-key [f4] 'emoji-complete-pictogram)
+;;(global-set-key [f4] 'emoji-complete-pictogram)
+
 ;; show calendar
 (global-set-key [f3] 'calendar)
 (global-set-key (kbd "M-<f3>") 'cfw:open-calendar-buffer)
