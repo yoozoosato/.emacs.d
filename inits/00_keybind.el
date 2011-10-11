@@ -64,6 +64,7 @@
 
 ;; Dynamic macro
 ;; http://www.pitecan.com/DynamicMacro/
+;; (auto-install-from-url "http://www.pitecan.com/DynamicMacro/dmacro.el")
 ;; C-c C-v で繰り返し
 (defconst *dmacro-key* "\C-c\C-v");; "\C-y")
 (autoload 'dmacro-exec "dmacro" nil t)
