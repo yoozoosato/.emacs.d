@@ -96,3 +96,10 @@
 
 ;; carbon emacs-like key bind
 (global-set-key (kbd "M-<f1>") 'other-frame)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; text-translator
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(global-set-key "\C-xt" 'text-translator)
+(global-set-key "\C-x\M-T" 'text-translator-translate-last-string)
+
