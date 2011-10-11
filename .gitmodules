@@ -46,3 +46,6 @@
 [submodule "lisp/emacs-window-manager"]
 	path = lisp/emacs-window-manager
 	url = https://github.com/kiwanami/emacs-window-manager.git
+[submodule "lisp/emacs-window-layout"]
+	path = lisp/emacs-window-layout
+	url = https://github.com/kiwanami/emacs-window-layout.git
