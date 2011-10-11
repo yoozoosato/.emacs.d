@@ -12,7 +12,7 @@
 
 
 ;; install-elisp
-(require 'install-elisp)
-(setq install-elisp-repository-directory "~/.emacs.d/lisp/auto-install")
+;; (require 'install-elisp)
+;; (setq install-elisp-repository-directory "~/.emacs.d/lisp/auto-install")
 
 
