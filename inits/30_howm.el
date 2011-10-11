@@ -1,6 +1,6 @@
 ;; 
 ;; howm 
-;; 
+;; http://howm.sourceforge.jp/index-j.html
 (load-library "howm")
 (setq howm-directory "~/Dropbox/Documents/howm")
 (setq howm-menu-todo-num 10)

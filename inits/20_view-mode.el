@@ -1,6 +1,6 @@
 ;;
 ;; view-mode
-;; (install-elisp-from-emacswiki "http://www.emacswiki.org/emacs/viewer.el")
+;; (auto-install-from-emacswiki "http://www.emacswiki.org/emacs/viewer.el")
 ;; Emacs Technic Bible p.216
 ;; ;; (auto-install-from-emacswiki "viewer.el")
 (require 'viewer)
