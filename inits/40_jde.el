@@ -2,12 +2,7 @@
 ;; cedet
 ;; 
 (load "cedet")
-
-;;
-;; semantic
-;;
-;; (auto-install-from-url "http://www.cs.ucf.edu/~leavens/emacs/semantic/semantic-load.el")
-;; (auto-install-from-url "http://www.cs.ucf.edu/~leavens/emacs/semantic/semantic-cb.el")
+(load "semantic")
 
 ;;
 ;; jde
