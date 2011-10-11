@@ -43,3 +43,6 @@
 [submodule "lisp/mew"]
 	path = lisp/mew
 	url = git://github.com/kazu-yamamoto/Mew.git
+[submodule "lisp/emacs-window-manager"]
+	path = lisp/emacs-window-manager
+	url = https://github.com/kiwanami/emacs-window-manager.git
