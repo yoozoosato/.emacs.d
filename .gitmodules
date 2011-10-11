@@ -49,3 +49,9 @@
 [submodule "lisp/emacs-window-layout"]
 	path = lisp/emacs-window-layout
 	url = https://github.com/kiwanami/emacs-window-layout.git
+[submodule "lisp/emacs-deferred"]
+	path = lisp/emacs-deferred
+	url = https://github.com/kiwanami/emacs-deferred.git
+[submodule "lisp/emacs-inertial-scroll"]
+	path = lisp/emacs-inertial-scroll
+	url = https://github.com/kiwanami/emacs-inertial-scroll.git
