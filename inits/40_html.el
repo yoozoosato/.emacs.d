@@ -1,5 +1,6 @@
 ;;
-;; (auto-install-from-url "https://github.com/ataka/html-fold/raw/master/html-fold.el")
+;; https://github.com/ataka/html-fold
+;; 
 (require 'html-fold)
 (setq html-fold-inline-list
 	'(("[a:" ("a"))

@@ -55,3 +55,9 @@
 [submodule "lisp/emacs-inertial-scroll"]
 	path = lisp/emacs-inertial-scroll
 	url = https://github.com/kiwanami/emacs-inertial-scroll.git
+[submodule "lisp/html-fold"]
+	path = lisp/html-fold
+	url = https://github.com/ataka/html-fold.git
+[submodule "lisp/auto-complete-etags"]
+	path = lisp/auto-complete-etags
+	url = https://github.com/whitypig/auto-complete-etags.git

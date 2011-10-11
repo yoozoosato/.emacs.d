@@ -48,7 +48,7 @@
 
 ;; pop-up help
 ;; http://www.emacswiki.org/emacs-en/PosTip
-;; (install-elisp-from-emacswiki "pos-tip.el")
+;; (auto-install-from-emacswiki "pos-tip.el")
 (setq ac-quick-help-prefer-x t)
 (require 'pos-tip)
 

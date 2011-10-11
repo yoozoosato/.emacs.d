@@ -42,5 +42,5 @@
                   (perltidy-region)))
 
 ;; for perl5 lib
-;; (install-elisp "http://coderepos.org/share/export/4903/lang/elisp/set-perl5lib/set-perl5lib.el")
+;; (auto-install-from-url "http://coderepos.org/share/export/4903/lang/elisp/set-perl5lib/set-perl5lib.el")
 (require 'set-perl5lib)
