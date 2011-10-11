@@ -1,6 +1,6 @@
 ;;
 ;; auto-async-byte-compile
-;; (install-elisp-from-emacswiki "auto-async-byte-compile.el")
+;; (auto-install-from-emacswiki "auto-async-byte-compile.el")
 (require 'auto-async-byte-compile)
 
 ;; exclude files.
