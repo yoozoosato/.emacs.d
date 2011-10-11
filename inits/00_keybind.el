@@ -53,7 +53,7 @@
 
 ;; accelerate
 ;; http://www.emacswiki.org/cgi-bin/wiki/accelerate.el
-;; (install-elisp-from-emacswiki "accelerate.el")
+;; (auto-install-from-emacswiki "accelerate.el")
 (require 'accelerate)
 (accelerate previous-line '(1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
 (accelerate next-line '(1 1 1 1 1  1 1 1 1 2 2 2 2 2 2 2 3 3))
