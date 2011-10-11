@@ -12,7 +12,7 @@
 
 ;; 
 ;; shell-pop
-;; (install-elisp-from-emacswiki "shell-pop.el")
+;; (auto-install-from-emacswiki "shell-pop.el")
 (require 'shell-pop)
 (shell-pop-set-internal-mode "shell")
 (shell-pop-set-internal-mode-shell "/bin/zsh")
@@ -21,5 +21,5 @@
 
 ;; 
 ;; multi-shell
-;; (install-elisp-from-emacswiki "multi-shell.el")
+;; (auto-install-from-emacswiki "multi-shell.el")
 (require 'multi-shell)

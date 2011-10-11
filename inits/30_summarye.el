@@ -1,5 +1,5 @@
 ;;
-;; (install-elisp-from-emacswiki "summarye.el")
+;; (auto-install-from-emacswiki "summarye.el")
 ;;
 (require 'summarye)
 
