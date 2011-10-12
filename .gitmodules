@@ -61,3 +61,6 @@
 [submodule "lisp/auto-complete-etags"]
 	path = lisp/auto-complete-etags
 	url = https://github.com/whitypig/auto-complete-etags.git
+[submodule "lisp/markdown-mode"]
+	path = lisp/markdown-mode
+	url = git://jblevins.org/git/markdown-mode.git
