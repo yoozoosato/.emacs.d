@@ -12,9 +12,6 @@
 (autoload 'mew "mew" nil t)
 (autoload 'mew-send "mew" nil t)
 
-;; add mewl exec path
-(setq exec-path (cons "~/.emacs.d/lisp/mew/bin" exec-path))
-
 (setq mew-draft-mode-hook (function (lambda () (auto-fill-mode 1))))
 (add-hook 'mew-draft-mode-hook
 	  '(lambda ()

@@ -25,15 +25,6 @@
 ;;       history)
 ;;    (- (:upper-size-ratio 0.7)
 ;;       main sub)))
-
-;; clock plugin uses wget to get pictures from bijin-tokei
-;; 'wget' is installed using port so that required to set exec-path
-(cond
- ((string-match "apple-darwin" system-configuration)
-  (setq exec-path (cons "/opt/local/bin" exec-path))
-  )
-)
-
 (setq e2wm:c-code-winfo
   '((:name main)
     (:name files :plugin files)
