@@ -64,3 +64,6 @@
 [submodule "lisp/markdown-mode"]
 	path = lisp/markdown-mode
 	url = git://jblevins.org/git/markdown-mode.git
+[submodule "lisp/emacs-flymake"]
+	path = lisp/emacs-flymake
+	url = git://github.com/illusori/emacs-flymake.git
