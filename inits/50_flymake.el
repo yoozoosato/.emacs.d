@@ -1,6 +1,7 @@
 ;; flymake
 ;;
 (require 'flymake)
+(setq flymake-run-in-place nil)
 
 ;; for ruby
 ;; 
