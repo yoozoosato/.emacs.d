@@ -67,3 +67,6 @@
 [submodule "lisp/emacs-flymake"]
 	path = lisp/emacs-flymake
 	url = git://github.com/illusori/emacs-flymake.git
+[submodule "lisp/riece"]
+	path = lisp/riece
+	url = git://git.savannah.nongnu.org/riece.git
