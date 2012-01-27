@@ -4,7 +4,7 @@
 (require 'anything-startup)
 (global-set-key "\C-x;" 'anything)
 (global-set-key "\C-x:" 'anything-resume)
-(anything-iswitchb-setup)
+;(anything-iswitchb-setup)
 (define-key anything-map "\C-p" 'anything-previous-line)
 (define-key anything-map "\C-n" 'anything-next-line)
 (define-key anything-map "\C-\M-v" 'anything-next-page)
