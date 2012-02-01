@@ -20,7 +20,9 @@
 (iswitchb-mode 1)
 
 ;; emacs client
-(server-start)
+(require 'server)
+(unless (server-running-p)
+  (server-start))
 
 ; coding
 (prefer-coding-system 'utf-8)
