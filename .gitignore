@@ -8,8 +8,6 @@ lisp/*.el
 lisp/apel-10.8
 lisp/howm-1.3.9.2
 lisp/php-mode-1.5.0
-lisp/yasnippet
-lisp/yasnippet-0.6.1c
 lisp/auto-complete
 lisp/color-theme-6.6.0/
 lisp/ecb-2.40/
