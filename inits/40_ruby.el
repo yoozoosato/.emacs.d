@@ -81,3 +81,16 @@
 ;;             (local-set-key (kbd "C-c .") 'ac-complete-rsense)))
 ;; (setq rsense-rurema-home "~/src/rurema")
 
+
+;; 
+;; for rails development
+;;
+(require 'rinari)
+;(dolist (dir (mapcar 'expand-file-name '("/usr/local/bin")))
+;  (setenv "PATH" (concat dir ":" (getenv "PATH")))
+;  (setq exec-path (append (list dir) exec-path)))
+
+;;; rhtml-mode
+(require 'rhtml-mode)
+(add-hook 'rhtml-mode-hook
+    (lambda () (rinari-launch)))
