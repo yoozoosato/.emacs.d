@@ -82,15 +82,15 @@
 ;; (setq rsense-rurema-home "~/src/rurema")
 
 
-;; 
-;; for rails development
-;;
-(require 'rinari)
-;(dolist (dir (mapcar 'expand-file-name '("/usr/local/bin")))
-;  (setenv "PATH" (concat dir ":" (getenv "PATH")))
-;  (setq exec-path (append (list dir) exec-path)))
+;; ;; 
+;; ;; for rails development
+;; ;;
+;; (require 'rinari)
+;; ;(dolist (dir (mapcar 'expand-file-name '("/usr/local/bin")))
+;; ;  (setenv "PATH" (concat dir ":" (getenv "PATH")))
+;; ;  (setq exec-path (append (list dir) exec-path)))
 
-;;; rhtml-mode
-(require 'rhtml-mode)
-(add-hook 'rhtml-mode-hook
-    (lambda () (rinari-launch)))
+;; ;;; rhtml-mode
+;; (require 'rhtml-mode)
+;; (add-hook 'rhtml-mode-hook
+;;     (lambda () (rinari-launch)))
