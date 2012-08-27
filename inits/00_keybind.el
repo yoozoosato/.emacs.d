@@ -104,3 +104,11 @@
 (global-set-key "\C-xt" 'text-translator)
 (global-set-key "\C-x\M-T" 'text-translator-translate-last-string)
 
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; font-size
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(global-set-key (kbd "M-S-<down>") 'text-scale-decrease)
+(global-set-key (kbd "M-S-<up>") 'text-scale-increase)
+
