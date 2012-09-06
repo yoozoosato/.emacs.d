@@ -35,9 +35,6 @@
 ;; find-file-at-point, it helps opening .el files via init-log buffer.
 (ffap-bindings)
 
-;; temporary
-(setq debug-on-error t)
-
 ;; alpha
 ;; (defun ik:toggle-opacity ()
 ;;   (interactive)
