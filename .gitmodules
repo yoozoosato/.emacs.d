@@ -1,6 +1,3 @@
-[submodule "lisp/auto-complete"]
-	path = lisp/auto-complete
-	url = http://github.com/m2ym/auto-complete.git
 [submodule "lisp/emoji"]
 	path = lisp/emoji
 	url = http://github.com/imakado/emoji.git
@@ -19,9 +16,6 @@
 [submodule "lisp/rvm"]
 	path = lisp/rvm
 	url = http://github.com/senny/rvm.el.git
-[submodule "lisp/Goby"]
-	path = lisp/Goby
-	url = http://github.com/kazu-yamamoto/Goby.git
 [submodule "lisp/magit"]
 	path = lisp/magit
 	url = git://gitorious.org/magit/mainline.git
