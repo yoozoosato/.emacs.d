@@ -64,9 +64,6 @@
 [submodule "lisp/yasnippet"]
 	path = lisp/yasnippet
 	url = https://github.com/capitaomorte/yasnippet.git
-[submodule "lisp/popup"]
-	path = lisp/popup
-	url = https://github.com/m2ym/popup-el.git
 [submodule "lisp/auto-complete"]
 	path = lisp/auto-complete
 	url = git://github.com/auto-complete/auto-complete.git
