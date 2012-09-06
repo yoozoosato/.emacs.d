@@ -8,7 +8,6 @@ lisp/*.el
 lisp/apel-10.8
 lisp/howm-1.4.0rc2
 lisp/php-mode-1.5.0
-lisp/auto-complete
 lisp/color-theme-6.6.0/
 lisp/ecb-2.40/
 lisp/jde-2.3.5.1/
