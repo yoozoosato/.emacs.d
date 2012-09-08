@@ -43,3 +43,10 @@
 ;;       (if (= (assoc-default 'alpha (frame-parameters)) 100)
 ;;           (set-frame-parameter nil 'alpha 80)
 ;;         (set-frame-parameter nil 'alpha 100)))))
+
+(cond
+ ;; when using linux, use Anthy for Japanese Input Mehod.
+ ;; Input toggle switch is C-\
+ ((string-match "linux" system-configuration)
+  (set-input-method "japanese-anthy")))
+
