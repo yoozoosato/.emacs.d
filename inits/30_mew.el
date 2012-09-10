@@ -7,16 +7,19 @@
 ;; cd ~/.emacs.d
 ;; git submodule add git://github.com/kazu-yamamoto/Mew.git ./lisp/mew
 ;; cd ./lisp/mew
-;; ./configure --prefix=/Applications/Emacs.app/Contents/MacOS --with-emacs=/Applications/Emacs.app/Contents/MacOS/Emacs 
+;; ./configure --prefix=/Applications/Emacs.app/Contents/MacOS --with-emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
 ;;
 (autoload 'mew "mew" nil t)
 (autoload 'mew-send "mew" nil t)
 
 (setq mew-draft-mode-hook (function (lambda () (auto-fill-mode 1))))
 (add-hook 'mew-draft-mode-hook
-	  '(lambda ()
-	     (setq fill-column 70)))
+      '(lambda ()
+         (setq fill-column 70)))
 (setq url-mail-command 'mew-send)
+
+;; use suffix
+(setq mew-use-suffix t)
 
 ;; use c-sig
 ;; signature file is '~/.signature.alist'
@@ -29,3 +32,18 @@
 (add-hook 'mew-draft-mode-hook
 (function (lambda ()
 (define-key mew-draft-mode-map "\C-c\C-i" 'insert-signature-eref))))
+
+;;
+;; for search
+(cond
+ ;; for Mac
+ ((string-match "apple-darwin" system-configuration)
+  (setq mew-search-method 'spotlight)
+  )
+ ;; for Linux
+ ((string-match "linux" system-configuration)
+  )
+ ;; for Windows
+ ((string-match "mingw" system-configuration)
+  )
+ )
