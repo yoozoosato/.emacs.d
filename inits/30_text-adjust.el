@@ -12,7 +12,7 @@
 ;; 半角英数字の前後に半角空白を入れて読み易くする。
 (defun text-adjust-space-before-save-if-needed ()
   (when (memq major-mode
-              '(howm-mode text-mode))
+              '(howm-mode text-mode markdown-mode))
     (text-adjust-space-buffer)))
 (defalias 'spacer 'text-adjust-space-buffer)
 (add-hook 'before-save-hook 'text-adjust-space-before-save-if-needed)
