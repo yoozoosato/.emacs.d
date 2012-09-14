@@ -1,8 +1,8 @@
 ;; yasnippet
 ;;
 (require 'yasnippet) ;; not yasnippet-bundle
-(yas/initialize)
-(yas/load-directory "~/Dropbox/Documents/snippets/")
+(setq yas/snippet-dirs "~/Dropbox/Documents/snippets/")
+(yas/global-mode 1)
 
 ;; default ix x-popup
 (require 'dropdown-list)
