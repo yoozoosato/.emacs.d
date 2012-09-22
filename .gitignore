@@ -6,7 +6,7 @@ tramp
 lisp/auto-install/*
 lisp/*.el
 lisp/apel-10.8
-lisp/howm-1.4.0rc2
+lisp/howm-*
 lisp/php-mode-1.5.0
 lisp/color-theme-6.6.0/
 lisp/ecb-2.40/
