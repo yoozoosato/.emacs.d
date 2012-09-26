@@ -1,5 +1,5 @@
-;; 
-;; howm 
+;;
+;; howm
 ;; http://howm.sourceforge.jp/index-j.html
 (load-library "howm")
 (setq howm-directory "~/Dropbox/Documents/howm")
@@ -21,8 +21,8 @@
    (autoload f
      "howm" "Hitori Otegaru Wiki Modoki" t))
  '(howm-menu howm-list-all howm-list-recent
-	     howm-list-grep howm-create
-	     howm-keyword-to-kill-ring))
+         howm-list-grep howm-create
+         howm-keyword-to-kill-ring))
 (setq howm-menu-refresh-after-save nil)
 (setq howm-refresh-after-save nil)
 
@@ -32,8 +32,12 @@
   (interactive)
   (when (and
          (buffer-file-name)
-         (string-match "\\.howm"
-                       (buffer-file-name)))
+         (or (string-match "\\.howm"
+                           (buffer-file-name))
+             ;; 最新の howm は拡張子が .txt なので、ディレクトリ名で引っ掛ける
+             (string-match "howm"
+                           (buffer-file-name)))
+         )
     (save-buffer)
     (kill-buffer nil)))
 (eval-after-load "howm"
@@ -49,7 +53,10 @@
 (defun delete-file-if-no-contents ()
   (when (and
          (buffer-file-name (current-buffer))
-         (string-match "\\.howm" (buffer-file-name (current-buffer)))
+         (or
+          (string-match "\\.howm" (buffer-file-name (current-buffer)))
+          (string-match "howm" (buffer-file-name (current-buffer)))
+          )
          (= (point-min) (point-max)))
     (delete-file
      (buffer-file-name (current-buffer)))))
@@ -67,5 +74,3 @@
                     (calendar-cursor-to-date t)))
          (exit-calendar)
          (insert day)))))
-
-
