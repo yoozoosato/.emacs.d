@@ -14,6 +14,6 @@
 
 ;; ;; tuning
 ;; ;; (setq anything-candidate-number-limit 100)
-;; (setq anything-input-idle-delay 0.05)
+(setq anything-input-idle-delay 0.2)
 ;; (setq anything-idle-delay 0.25)
 ;; (setq anything-quick-update t)
