@@ -17,6 +17,7 @@
 (setq navi2ch-list-stay-list-window t)
 (setq navi2ch-list-window-width 37)
 (setq navi2ch-board-expire-date nil) ;; 30日以上経過しても削除しない
+(setq navi2ch-history-max-line nil)
 
 ;; 3ペインで起動したいのだが、上手く動かない・・・
 (add-hook 'navi2ch-after-startup-hook
