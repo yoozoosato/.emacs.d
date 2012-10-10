@@ -16,6 +16,7 @@ lisp/linger/
 lisp/rhtml/
 lisp/cedet-1.0
 lisp/semantic.cache
+lisp/emacs-w3m-1.4.4/
 
 games
 .DS_Store
