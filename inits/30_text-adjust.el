@@ -5,6 +5,8 @@
 ;; (auto-install-from-url "http://taiyaki.org/elisp/text-adjust/src/text-adjust.el")
 ;; taiyaki.org が落ちているので、以下から取得できる
 ;; http://d.hatena.ne.jp/rubikitch/comment/20090220/text_adjust
+;; (install-elisp "http://www.rubyist.net/~rubikitch/archive/mell.el")
+;; (install-elisp "http://www.rubyist.net/~rubikitch/archive/text-adjust.el")
 (require 'text-adjust)
 
 
