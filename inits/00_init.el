@@ -50,3 +50,5 @@
  ((string-match "linux" system-configuration)
   (set-input-method "japanese-anthy")))
 
+;; debug
+(setq debug-on-error t)

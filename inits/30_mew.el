@@ -54,3 +54,11 @@
       '("Text/Plain" "Text/Html" ".*"))
 (define-key mew-summary-mode-map "T" 'mew-w3m-view-inline-image)
 
+
+;; use POPFile
+(setq mew-spam: "X-Text-Classification:")
+(defun mew-spam-popfile (val)
+  (let ((case-fold-search t))
+    (if (string-match "ignore" val) "+trash")))
+(setq mew-inbox-action-alist
+      '(("X-Text-Classification:" mew-spam-popfile)))
