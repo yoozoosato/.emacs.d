@@ -47,3 +47,10 @@
  ((string-match "mingw" system-configuration)
   )
  )
+
+;; use w3m
+(require 'mew-w3m)
+(setq mew-mime-multipart-alternative-list
+      '("Text/Plain" "Text/Html" ".*"))
+(define-key mew-summary-mode-map "T" 'mew-w3m-view-inline-image)
+
