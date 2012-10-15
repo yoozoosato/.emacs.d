@@ -59,6 +59,7 @@
 (setq mew-spam: "X-Text-Classification:")
 (defun mew-spam-popfile (val)
   (let ((case-fold-search t))
-    (if (string-match "ignore" val) "+trash")))
+    (if (string-match "ignore" val) "+trash")
+	(if (string-match "tinfo" val) "+so-net/work/ml/tinfo")))
 (setq mew-inbox-action-alist
       '(("X-Text-Classification:" mew-spam-popfile)))
