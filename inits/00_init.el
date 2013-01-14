@@ -48,7 +48,10 @@
  ;; when using linux, use Anthy for Japanese Input Mehod.
  ;; Input toggle switch is C-\
  ((string-match "linux" system-configuration)
-  (set-input-method "japanese-anthy")))
+  (require 'mozc)
+  (set-language-environment "Japanese")
+  (setq default-input-method "japanese-mozc")
+))
 
 ;; debug
 (setq debug-on-error t)
