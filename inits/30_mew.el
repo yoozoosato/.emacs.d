@@ -21,6 +21,10 @@
 ;; use suffix
 (setq mew-use-suffix t)
 
+
+;; 未読メールにはマークを付ける
+(setq mew-use-unread-mark t)
+
 ;; use c-sig
 ;; signature file is '~/.signature.alist'
 (autoload 'add-signature "c-sig" "c-sig" t)
