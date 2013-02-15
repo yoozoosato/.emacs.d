@@ -1,7 +1,7 @@
 ;;
 ;; js2-mode
-;; (auto-install-from-url "http://js2-mode.googlecode.com/files/js2-20090723b.el")
-(autoload 'js2-mode "js2" nil t)
+;; (auto-install-from-url "http://js2-mode.googlecode.com/files/js2-mode.el")
+(autoload 'js2-mode "js2-mode" nil t)
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
 (add-hook 'js2-mode-hook
           '(lambda ()
