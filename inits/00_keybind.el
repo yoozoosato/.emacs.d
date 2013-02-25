@@ -84,6 +84,8 @@
 
 ;; for magit
 (global-set-key (kbd "C-<f9>") 'magit-status)
+(global-set-key (kbd "M-<f9>") 'magit-log)
+
 
 ;; key-chord
 ;; (auto-install-from-emacswiki "http://www.emacswiki.org/emacs/key-chord.el")
