@@ -81,6 +81,10 @@
 (global-set-key (kbd "C-S-l") 'windmove-right)
 (global-set-key (kbd "C-S-h") 'windmove-left)
 
+
+;; for magit
+(global-set-key (kbd "C-<f9>") 'magit-status)
+
 ;; key-chord
 ;; (auto-install-from-emacswiki "http://www.emacswiki.org/emacs/key-chord.el")
 (require 'key-chord)
