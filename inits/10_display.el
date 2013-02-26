@@ -37,6 +37,15 @@
 ;; default frame settings
 (cond
  ((string-match "apple-darwin" system-configuration)
+  (if window-system
+	  (setq default-frame-alist
+			(append (list
+					 '(width . 120)
+					 '(height . 58)
+					 '(top . 0)
+					 '(left . 0)
+					 )
+					default-frame-alist)))
   )
  ((string-match "linux" system-configuration)
   (setq initial-frame-alist
