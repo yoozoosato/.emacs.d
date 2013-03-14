@@ -91,6 +91,6 @@
 ;; ;  (setq exec-path (append (list dir) exec-path)))
 
 ;; ;;; rhtml-mode
-;; (require 'rhtml-mode)
+(require 'rhtml-mode)
 ;; (add-hook 'rhtml-mode-hook
 ;;     (lambda () (rinari-launch)))
