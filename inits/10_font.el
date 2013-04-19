@@ -18,6 +18,7 @@
   )
 
  ;; for Linux
+ ;; use this command to install font, 'sudo apt-get install ttf-inconsolata ttf-takao'
  ((string-match "linux" system-configuration)
   (set-default-font "Inconsolata-11")
   (set-face-font 'variable-pitch "Inconsolata-11")
