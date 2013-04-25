@@ -1,12 +1,6 @@
-[submodule "lisp/rhtml-mode"]
-	path = lisp/rhtml-mode
-	url = http://github.com/eschulte/rhtml.git
 [submodule "lisp/jump"]
 	path = lisp/jump
 	url = http://github.com/eschulte/jump.el.git
-[submodule "lisp/rinari"]
-	path = lisp/rinari
-	url = http://github.com/eschulte/rinari.git
 [submodule "lisp/navi2ch"]
 	path = lisp/navi2ch
 	url = git://navi2ch.git.sourceforge.net/gitroot/navi2ch/navi2ch
