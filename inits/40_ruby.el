@@ -31,8 +31,7 @@
 (add-hook 'ruby-mode-hook 
 		  '(lambda () 
 			 (ruby-electric-mode t)
-			 (inf-ruby-keys)
-			 (rinari-launch)))
+			 (inf-ruby-keys)))
 
 ;; anything-rcode
 ;; (auto-install-from-emacswiki "anything-rcodetools.el")
@@ -90,6 +89,8 @@
 ;; ;(dolist (dir (mapcar 'expand-file-name '("/usr/local/bin")))
 ;; ;  (setenv "PATH" (concat dir ":" (getenv "PATH")))
 ;; ;  (setq exec-path (append (list dir) exec-path)))
+(add-hook 'ruby-mode-hook
+		  (lambda () (rinari-launch)))
 
 ;; ;;; rhtml-mode
 (require 'rhtml-mode)
