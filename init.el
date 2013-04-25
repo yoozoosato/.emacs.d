@@ -5,6 +5,18 @@
     (let ((default-directory dir))
       (load (expand-file-name "subdirs.el") t t t))))
 
+;;; This was installed by package-install.el.
+;;; This provides support for the package system and
+;;; interfacing with ELPA, the package archive.
+;;; Move this code earlier if you want to reference
+;;; packages in your .emacs.
+(require 'package)
+; Add package-archives
+(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(package-initialize)
+
+
 ;; init-loader
 (require 'init-loader)
 (init-loader-load "~/.emacs.d/inits")
@@ -23,12 +35,3 @@
  )
 
 
-;;; This was installed by package-install.el.
-;;; This provides support for the package system and
-;;; interfacing with ELPA, the package archive.
-;;; Move this code earlier if you want to reference
-;;; packages in your .emacs.
-(when
-	(load
-	 (expand-file-name "~/.emacs.d/elpa/package.el"))
-  (package-initialize))

@@ -1,8 +1,7 @@
 ;; window layout manager.
 ;;
-;; (auto-install-from-url "https://github.com/kiwanami/emacs-window-layout/raw/master/window-layout.el")
-;; (auto-install-from-url "https://github.com/kiwanami/emacs-window-manager/raw/master/e2wm.el")
-;; (auto-install-from-url "https://github.com/kiwanami/emacs-window-manager/raw/master/e2wm-config.el")
+;; use 'M-x package-list-packages' to install e2wm and window-layout
+;; 
 (require 'e2wm)
 (e2wm:add-keymap
  e2wm:pst-minor-mode-keymap
