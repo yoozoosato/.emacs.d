@@ -2,7 +2,7 @@
 ;; color-theme
 ;; http://www.emacswiki.org/emacs/ColorTheme
 (require 'color-theme)
-(require 'color-theme-tangotango)
+(require 'color-theme-tango)
 ;; Carbon Emacsの場合、initializeが必要。Ubuntu 10.04のEmacs23では必要ない
 (cond
  ((string-match "apple-darwin" system-configuration)
@@ -17,5 +17,5 @@
 ;必要ならここにWindows用の設定を書く
 ; )
 )
-(color-theme-tangotango)
+(color-theme-tango)
 ;; (color-theme-clarity)

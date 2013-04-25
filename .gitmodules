@@ -7,12 +7,6 @@
 [submodule "lisp/rinari"]
 	path = lisp/rinari
 	url = http://github.com/eschulte/rinari.git
-[submodule "lisp/rvm"]
-	path = lisp/rvm
-	url = http://github.com/senny/rvm.el.git
-[submodule "lisp/magit"]
-	path = lisp/magit
-	url = git://gitorious.org/magit/mainline.git
 [submodule "lisp/navi2ch"]
 	path = lisp/navi2ch
 	url = git://navi2ch.git.sourceforge.net/gitroot/navi2ch/navi2ch
@@ -28,9 +22,6 @@
 [submodule "lisp/auto-complete-etags"]
 	path = lisp/auto-complete-etags
 	url = https://github.com/whitypig/auto-complete-etags.git
-[submodule "lisp/emacs-flymake"]
-	path = lisp/emacs-flymake
-	url = git://github.com/illusori/emacs-flymake.git
 [submodule "lisp/popup"]
 	path = lisp/popup
 	url = git://github.com/auto-complete/popup-el.git
