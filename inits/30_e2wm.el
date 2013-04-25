@@ -9,7 +9,7 @@
  '(("<M-left>" . e2wm:dp-code) ; codeへ変更
    ("<M-right>"  . e2wm:dp-two)  ; twoへ変更
    ("<M-up>"    . e2wm:dp-doc)  ; docへ変更
-   ("<M-down>"  . e2wm:dp-dashboard) ; dashboardへ変更
+   ("<M-down>"  . e2wm:dp-array) ; arrayへ変更
    ("C-."       . e2wm:pst-history-forward-command) ; 履歴を進む
    ("C-,"       . e2wm:pst-history-back-command) ; 履歴をもどる
    ("prefix L"  . ielm)
@@ -25,11 +25,23 @@
 ;;       history)
 ;;    (- (:upper-size-ratio 0.7)
 ;;       main sub)))
+
+(setq e2wm:c-code-recipe
+  '(| (:left-max-size 35)
+      (- (:upper-size-ratio 0.7)
+         files history)
+      (- (:upper-size-ratio 0.7)
+         (| (:right-max-size 30)
+            main 
+			(- (:upper-size-ratio 0.7)
+			   imenu clock))
+         sub)))
+
 (setq e2wm:c-code-winfo
   '((:name main)
     (:name files :plugin files)
     (:name history :plugin history-list)
-    ;; (:name history :plugin clock)
+    (:name clock :plugin clock)
     (:name sub :buffer "*info*" :default-hide t)
     (:name imenu :plugin imenu :default-hide nil))
   )
