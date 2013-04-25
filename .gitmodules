@@ -1,6 +1,3 @@
-[submodule "lisp/emoji"]
-	path = lisp/emoji
-	url = http://github.com/imakado/emoji.git
 [submodule "lisp/rhtml-mode"]
 	path = lisp/rhtml-mode
 	url = http://github.com/eschulte/rhtml.git
@@ -19,18 +16,9 @@
 [submodule "lisp/navi2ch"]
 	path = lisp/navi2ch
 	url = git://navi2ch.git.sourceforge.net/gitroot/navi2ch/navi2ch
-[submodule "lisp/color-theme-tangotango"]
-	path = lisp/color-theme-tangotango
-	url = https://github.com/juba/color-theme-tangotango.git
-[submodule "lisp/calfw"]
-	path = lisp/calfw
-	url = https://github.com/kiwanami/emacs-calfw.git
 [submodule "lisp/mew"]
 	path = lisp/mew
 	url = git://github.com/kazu-yamamoto/Mew.git
-[submodule "lisp/emacs-deferred"]
-	path = lisp/emacs-deferred
-	url = https://github.com/kiwanami/emacs-deferred.git
 [submodule "lisp/emacs-inertial-scroll"]
 	path = lisp/emacs-inertial-scroll
 	url = https://github.com/kiwanami/emacs-inertial-scroll.git
@@ -43,9 +31,6 @@
 [submodule "lisp/emacs-flymake"]
 	path = lisp/emacs-flymake
 	url = git://github.com/illusori/emacs-flymake.git
-[submodule "lisp/riece"]
-	path = lisp/riece
-	url = git://git.savannah.nongnu.org/riece.git
 [submodule "lisp/popup"]
 	path = lisp/popup
 	url = git://github.com/auto-complete/popup-el.git
