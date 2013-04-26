@@ -110,3 +110,5 @@
 (global-set-key (kbd "M-S-<down>") 'text-scale-decrease)
 (global-set-key (kbd "M-S-<up>") 'text-scale-increase)
 
+;; disable C-z (suspend frame)
+(define-key global-map (kbd "C-z") nil)
