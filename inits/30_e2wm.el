@@ -25,6 +25,10 @@
 ;;    (- (:upper-size-ratio 0.7)
 ;;       main sub)))
 
+;; for clock
+(setq e2wm:def-plugin-clock-url "http://www.bijint.com/jp/tokei_images/%H%M.jpg")
+(setq e2wm:def-plugin-clock-referer "http://www.bijint.com/")
+
 (setq e2wm:c-code-recipe
   '(| (:left-max-size 35)
       (- (:upper-size-ratio 0.7)
