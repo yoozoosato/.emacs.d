@@ -30,8 +30,7 @@
 ;; hooks
 (add-hook 'ruby-mode-hook 
 		  '(lambda () 
-			 (ruby-electric-mode t)
-			 (inf-ruby-keys)))
+			 (ruby-electric-mode t)))
 
 ;; anything-rcode
 ;; (auto-install-from-emacswiki "anything-rcodetools.el")
