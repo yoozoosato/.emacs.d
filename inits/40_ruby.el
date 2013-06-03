@@ -94,4 +94,6 @@
 ;; ;;; rhtml-mode
 (require 'rhtml-mode)
 (add-hook 'rhtml-mode-hook
-    (lambda () (rinari-launch)))
+    (lambda ()
+	  (rinari-launch)
+	  (setq abbrev-mode nil)))
