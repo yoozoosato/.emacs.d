@@ -1,2 +1,7 @@
 ;; magit
 (require 'magit)
+
+(add-hook 'server-visit-hook
+          (function (lambda ()
+                      (if (string-match "COMMIT_EDITMSG" buffer-file-name)
+                          (set-buffer-file-coding-system 'utf-8)))))
