@@ -55,3 +55,5 @@
 
 ;; debug
 (setq debug-on-error nil)
+
+(set-default-coding-systems 'utf-8-unix)
