@@ -1,4 +1,0 @@
-;; 
-;; ecb
-;; 
-(require 'ecb)
