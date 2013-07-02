@@ -23,3 +23,7 @@ auto-save-list
 elpa/
 twittering-mode.gpg
 url/cookies
+
+# for clojure
+.smex-items
+places
