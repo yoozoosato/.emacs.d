@@ -5,11 +5,6 @@
   (setq twittering-use-master-password t)
   (setq twittering-private-info-file "~/.emacs.d/twittering-mode.gpg")
   (twittering-icon-mode t)
-
-  ;; use bit.ly for url shorten service
-  (setq twittering-tinyurl-service 'bit.ly)
-  (setq twittering-bitly-login "yoozoosato")
-  (setq twittering-bitly-api-key "R_78b4299f8b0a4aba927917b468f36f6f")
 )
 
 ;; same key-map as mew
