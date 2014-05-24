@@ -22,3 +22,6 @@
 [submodule "lisp/Goby"]
 	path = lisp/Goby
 	url = git://github.com/kazu-yamamoto/Goby.git
+[submodule "lisp/mew"]
+	path = lisp/mew
+	url = git@github.com:yoozoosato/Mew.git
