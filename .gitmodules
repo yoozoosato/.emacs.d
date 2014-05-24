@@ -4,9 +4,6 @@
 [submodule "lisp/navi2ch"]
 	path = lisp/navi2ch
 	url = git://navi2ch.git.sourceforge.net/gitroot/navi2ch/navi2ch
-[submodule "lisp/mew"]
-	path = lisp/mew
-	url = git://github.com/kazu-yamamoto/Mew.git
 [submodule "lisp/emacs-inertial-scroll"]
 	path = lisp/emacs-inertial-scroll
 	url = https://github.com/kiwanami/emacs-inertial-scroll.git
