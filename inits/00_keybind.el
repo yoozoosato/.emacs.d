@@ -100,7 +100,7 @@
 ;; text-translator
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (global-set-key "\C-xt" 'text-translator)
-(global-set-key "\C-x\M-T" 'text-translator-translate-last-string)
+;;(global-set-key "\C-x\M-T" 'text-translator-translate-last-string)
 
 
 
