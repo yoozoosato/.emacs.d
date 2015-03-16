@@ -83,3 +83,8 @@
 
 ;; スレ保存ディレクトリ
 (setq navi2ch-directory "~/Dropbox/Documents/.navi2ch")
+
+
+;; 3/13 API 取得対応 
+;; offline モードで起動しないと、過去スレ表示できなさそう
+(setq navi2ch-offline t)
