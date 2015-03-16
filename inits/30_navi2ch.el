@@ -87,4 +87,6 @@
 
 ;; 3/13 API 取得対応 
 ;; offline モードで起動しないと、過去スレ表示できなさそう
-(setq navi2ch-offline t)
+;(setq navi2ch-offline t)
+(setq navi2ch-net-http-proxy "localhost:18080")
+(setq navi2ch-net-enable-http11 nil)
