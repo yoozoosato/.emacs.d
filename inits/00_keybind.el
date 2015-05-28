@@ -112,3 +112,5 @@
 
 ;; disable C-z (suspend frame)
 (define-key global-map (kbd "C-z") nil)
+
+(setq mac-option-modifier 'nil)
