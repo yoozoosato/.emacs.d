@@ -7,3 +7,6 @@
                           (set-buffer-file-coding-system 'utf-8)))))
 (add-hook 'magit-mode-hook
 		  (set-buffer-file-coding-system 'utf-8))
+
+
+(setq magit-last-seen-setup-instructions "1.4.0")

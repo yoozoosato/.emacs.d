@@ -24,9 +24,6 @@
 (require 'rvm)
 (rvm-use-default)
 
-;; ruby-electric
-(require 'ruby-electric)
-
 ;; hooks
 (add-hook 'ruby-mode-hook 
 		  '(lambda () 
