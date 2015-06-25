@@ -27,3 +27,5 @@ url/cookies
 # for clojure
 .smex-items
 places
+
+eshell
