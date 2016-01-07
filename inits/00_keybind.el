@@ -41,8 +41,8 @@
 ;; sequential-command-config
 ;; (auto-install-from-emacswiki "sequential-command.el")
 ;; (auto-install-from-emacswiki "sequential-command-config.el")
-(require 'sequential-command-config)
-(sequential-command-setup-keys)
+;;(require 'sequential-command-config)
+;;(sequential-command-setup-keys)
 
 ;; accelerate
 ;; http://www.emacswiki.org/cgi-bin/wiki/accelerate.el
