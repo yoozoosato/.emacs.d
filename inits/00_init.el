@@ -16,9 +16,6 @@
 (setq make-backup-files nil)
 (setq version-control nil)
 
-;; iswitchb
-(iswitchb-mode 1)
-
 ;; emacs client
 (require 'server)
 (unless (server-running-p)
