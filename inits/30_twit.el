@@ -24,4 +24,4 @@
                  ))))
 
 ;; http://hikaru.6.ql.bz/memo.php?id=emacs#twittering-mode
-(setq twittering-allow-insecure-server-cert t)
+(setq twittering-allow-insecure-server-cert nil)
