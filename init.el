@@ -22,16 +22,18 @@
 (init-loader-load "~/.emacs.d/inits")
 (setq init-loader-show-log-after-init nil)
 (custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- '(navi2ch-article-message-filter-by-hostname-alist (quote ((("118-86-211-178.fnnr.j-cnet.jp" S :invert nil :board-id "kanto" :artid nil :float nil :date nil) . hide)))))
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+	(ac-cider rvm rainbow-delimiters auto-async-byte-compile exec-path-from-shell viewer deferred dropdown-list anything auto-complete clojure-mode color-theme color-theme-tango e2wm howm magit migemo nyan-mode php-mode ruby-block twittering-mode yaml-mode yasnippet))))
 (custom-set-faces
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  )
 
 
