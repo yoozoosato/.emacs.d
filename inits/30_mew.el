@@ -53,6 +53,7 @@
  )
 
 ;; use w3m
+;; (auto-install-from-url "http://rubikitch.com/f/mew-w3m.el")
 (require 'mew-w3m)
 (setq mew-mime-multipart-alternative-list
       '("Text/Plain" "Text/Html" ".*"))
