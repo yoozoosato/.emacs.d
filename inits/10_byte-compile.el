@@ -1,6 +1,6 @@
 ;;
 ;; auto-async-byte-compile
-;; (auto-install-from-emacswiki "auto-async-byte-compile.el")
+;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/auto-async-byte-compile.el")
 (require 'auto-async-byte-compile)
 
 ;; exclude files.

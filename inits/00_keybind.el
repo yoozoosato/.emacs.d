@@ -45,8 +45,8 @@
 ;;(sequential-command-setup-keys)
 
 ;; accelerate
-;; http://www.emacswiki.org/cgi-bin/wiki/accelerate.el
-;; (auto-install-from-emacswiki "accelerate.el")
+;; https://www.emacswiki.org/cgi-bin/wiki/accelerate.el
+;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/accelerate.el")
 (require 'accelerate)
 (accelerate previous-line '(1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
 (accelerate next-line '(1 1 1 1 1  1 1 1 1 2 2 2 2 2 2 2 3 3))
@@ -80,7 +80,7 @@
 
 
 ;; key-chord
-;; (auto-install-from-emacswiki "http://www.emacswiki.org/emacs/key-chord.el")
+;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/key-chord.el")
 (require 'key-chord)
 (setq key-chord-two-keys-delay 0.1)
 (key-chord-mode t)

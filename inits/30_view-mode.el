@@ -1,6 +1,6 @@
 ;;
 ;; view-mode
-;; (auto-install-from-emacswiki "http://www.emacswiki.org/emacs/viewer.el")
+;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/viewer.el")
 ;; Emacs Technic Bible p.216
 (require 'viewer)
 (viewer-stay-in-setup)
