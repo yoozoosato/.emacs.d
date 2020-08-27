@@ -13,10 +13,19 @@
 (show-paren-mode t)
 (setq blink-matching-paren t)
 
-;; line-number, column-number and menu-bar
+;; modeline (line-number, column-number)
 (line-number-mode 1)
 (column-number-mode 1)
+;; nyan-mode on modeline
+(require 'nyan-mode)
+(nyan-mode)
+(nyan-start-animation)
+
+;; menu-bar
 (menu-bar-mode 0)
+
+;; default length = 32. it's too long!
+(setq nyan-bar-length 12)
 
 ;; default tab width
 (setq-default tab-width 4)
