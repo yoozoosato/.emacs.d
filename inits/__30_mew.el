@@ -10,20 +10,20 @@
 ;; ./configure --prefix=/Applications/Emacs.app/Contents/MacOS --with-emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
 ;;
 (autoload 'mew "mew" nil t)
+(autoload 'mew-draft-mode "mew-draft-mode.el" nil t)
 (autoload 'mew-send "mew" nil t)
 
-(setq mew-draft-mode-hook (function (lambda () (auto-fill-mode 1))))
-(add-hook 'mew-draft-mode-hook
-      '(lambda ()
-         (setq fill-column 70)))
+(setq mew-draft-mode-hook (function (lambda () (auto-fill-mode 0))))
 (setq url-mail-command 'mew-send)
 
 ;; use suffix
 (setq mew-use-suffix t)
 
-
 ;; 未読メールにはマークを付ける
 (setq mew-use-unread-mark t)
+
+;; gmail の sent に自動で入るので
+(setq mew-fcc nil)
 
 ;; use c-sig
 ;; signature file is '~/.signature.alist'

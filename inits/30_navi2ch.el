@@ -90,3 +90,9 @@
 ;(setq navi2ch-offline t)
 (setq navi2ch-net-http-proxy "localhost:18080")
 (setq navi2ch-net-enable-http11 nil)
+
+(setq navi2ch-list-valid-host-regexp 
+(concat "\\(" 
+(regexp-opt '(".2ch.net" ".5ch.net" ".bbspink.com" ".mach=ibbs.com" ".mach=i.to")) 
+"\\)\\'"))
+(setq navi2ch-list-bbstable-url "http://menu.5ch.net/bbstable.html")

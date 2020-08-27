@@ -26,7 +26,7 @@
 ;;       main sub)))
 
 ;; for clock
-(setq e2wm:def-plugin-clock-url "http://www.bijint.com/jp/tokei_images/%H%M.jpg")
+(setq e2wm:def-plugin-clock-url "http://www.bijint.com/assets/pict/jp/pc/%H%M.jpg")
 (setq e2wm:def-plugin-clock-referer "http://www.bijint.com/")
 
 (setq e2wm:c-code-recipe
@@ -36,7 +36,7 @@
       (- (:upper-size-ratio 0.7)
          (| (:right-max-size 30)
             main 
-			(- (:upper-size-ratio 0.7)
+			(- (:upper-size-ratio 0.8)
 			   imenu clock))
          sub)))
 

@@ -11,11 +11,9 @@
 ;;; Move this code earlier if you want to reference
 ;;; packages in your .emacs.
 (require 'package)
+; Add package-archives
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
-(add-to-list 'package-archives  '("marmalade" . "http://marmalade-repo.org/packages/") t)
-(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
-(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/") t)
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
 
 ;; init-loader
@@ -28,17 +26,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(navi2ch-article-message-filter-by-hostname-alist
-   (quote
-	((("118-86-211-178.fnnr.j-cnet.jp" S :invert nil :board-id "kanto" :artid nil :float nil :date nil)
-	  . hide))))
+   '((("118-86-211-178.fnnr.j-cnet.jp" S :invert nil :board-id "kanto" :artid nil :float nil :date nil)
+	  . hide)))
  '(package-selected-packages
-   (quote
-	(rinari exec-path-from-shell migemo ruby-block auto-complete-etags ac-cider e2wm window-layout ivy yaml-mode twittering-mode rainbow-delimiters clojure-mode howm yasnippet-bundle color-theme-tango color-theme ruby-electric php-mode nyan-mode magit))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+   '(ido-completing-read+ ido-at-point ido-complete-space-or-hyphen ido-exit-target ido-flex-with-migemo ido-hacks ido-load-library ido-migemo ido-select-window ido-yes-or-no idomenu markdown-mode markdown-mode+ markdown-preview-mode popup howm tide yasnippet magit dash exec-path-from-shell rainbow-delimiters typescript-mode mew ruby-electric yasnippet-bundle yasnippet-classic-snippets yasnippet-lean yasnippet-snippets magit-lfs ac-python el-get alchemist xml-rpc viewer twittering-mode slime-repl slamhound s rvm rinari rhtml-mode php-extras oauth2 nyan-mode mmm-mode migemo magit-push-remote ido-ubiquitous idle-highlight-mode flymake-yaml flymake-shell flymake-ruby flymake e2wm dropdown-list deferred color-theme-tango closure-template-html-mode closure-lint-mode clojurescript-mode clojure-snippets clojure-project-mode clojure-cheatsheet ac-cider)))
 
 
