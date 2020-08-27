@@ -1,14 +1,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Library settings begin here
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; add library path
-;; add load-path
-(let ((dir (expand-file-name "~/.emacs.d/lisp")))
- (if (member dir load-path) nil
-   (setq load-path (cons dir load-path))
-   (let ((default-directory dir))
-     (load (expand-file-name "subdirs.el") t t t))))
-
 ;; change directory to my home directory
 (cd "~/")
 
@@ -23,6 +15,7 @@
 
 ; coding
 (prefer-coding-system 'utf-8)
+(set-default-coding-systems 'utf-8-unix)
 
 ; clipborad (for Emacs23 on Ubuntu)
 (cond (window-system
@@ -52,8 +45,6 @@
 
 ;; debug
 (setq debug-on-error nil)
-
-(set-default-coding-systems 'utf-8-unix)
 
 ;; exec-path-from-shell
 ;; https://github.com/yoozoosato/.emacs.d/issues/7
