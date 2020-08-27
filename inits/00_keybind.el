@@ -114,3 +114,10 @@
 (define-key global-map (kbd "C-z") nil)
 
 (setq mac-option-modifier 'nil)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Browse url
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; optional keyboard short-cut
+(global-set-key "\C-xm" 'browse-url-at-point)
