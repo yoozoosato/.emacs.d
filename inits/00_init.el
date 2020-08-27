@@ -10,7 +10,7 @@
      (load (expand-file-name "subdirs.el") t t t))))
 
 ;; change directory to my home directory
-;(cd "~/")
+(cd "~/")
 
 ;; backup files
 (setq make-backup-files nil)
