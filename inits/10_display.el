@@ -70,3 +70,5 @@
   )
  )
 
+;; Color theming
+(load-theme 'tango-dark)
