@@ -16,6 +16,9 @@ lisp/rhtml/
 lisp/cedet-1.0
 lisp/semantic.cache
 lisp/emacs-w3m-1.4.4/
+lisp/emacs-inertial-scroll/
+lisp/html-fold/
+lisp/navi2ch/
 
 games
 .DS_Store
@@ -23,6 +26,8 @@ auto-save-list
 elpa/
 twittering-mode.gpg
 url/cookies
+transient/
+el-get/
 
 # for clojure
 .smex-items
