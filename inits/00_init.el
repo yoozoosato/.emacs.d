@@ -54,3 +54,7 @@
 (setq debug-on-error nil)
 
 (set-default-coding-systems 'utf-8-unix)
+
+;; exec-path-from-shell
+;; https://github.com/yoozoosato/.emacs.d/issues/7
+(exec-path-from-shell-initialize)
