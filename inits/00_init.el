@@ -17,31 +17,13 @@
 (prefer-coding-system 'utf-8)
 (set-default-coding-systems 'utf-8-unix)
 
-; clipborad (for Emacs23 on Ubuntu)
+; use system clipborad 
 (cond (window-system
        (setq x-select-enable-clipboard t)
        ))
 
 ;; find-file-at-point, it helps opening .el files via init-log buffer.
 (ffap-bindings)
-
-;; alpha
-;; (defun ik:toggle-opacity ()
-;;   (interactive)
-;;   (when window-system
-;;     (ignore-errors
-;;       (if (= (assoc-default 'alpha (frame-parameters)) 100)
-;;           (set-frame-parameter nil 'alpha 80)
-;;         (set-frame-parameter nil 'alpha 100)))))
-
-(cond
- ;; when using linux, use Anthy for Japanese Input Mehod.
- ;; Input toggle switch is C-\
- ((string-match "linux" system-configuration)
-  (require 'mozc)
-  (set-language-environment "Japanese")
-  (setq default-input-method "japanese-mozc")
-))
 
 ;; debug
 (setq debug-on-error nil)
