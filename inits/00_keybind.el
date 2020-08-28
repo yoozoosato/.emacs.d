@@ -1,6 +1,6 @@
-;;
-;; key-bind
-;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; common keybindings for both MacOS and Linux
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (define-key global-map "\C-h" 'delete-backward-char)
 ;; this is yet anoter solution for ^C-h
@@ -89,12 +89,6 @@
 (key-chord-define-global "jk" 'view-mode)
 (key-chord-define-global "hj" 'undo)
 
-;; for Emacs23 on Mac OS X
-(setq ns-command-modifier (quote meta))
-(setq ns-alternate-modifier (quote super))
-
-;; carbon emacs-like key bind
-(global-set-key (kbd "M-<f1>") 'other-frame)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; text-translator
@@ -113,7 +107,6 @@
 ;; disable C-z (suspend frame)
 (define-key global-map (kbd "C-z") nil)
 
-(setq mac-option-modifier 'nil)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
