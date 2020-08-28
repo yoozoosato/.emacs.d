@@ -40,5 +40,4 @@
 (add-to-list 'default-frame-alist
              '(font . "fontset-menlokakugo"))
 (setq face-font-rescale-alist '((".*Hiragino.*" . 1.0) (".*Menlo.*" . 0.9)))
-)
 
