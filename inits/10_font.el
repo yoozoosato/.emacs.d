@@ -1,5 +1,0 @@
-;;
-;; font setting for Emacs
-;;
-
-
