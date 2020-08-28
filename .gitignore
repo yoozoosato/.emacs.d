@@ -1,22 +1,21 @@
 ac-comphist.dat
 anything-c-adaptive-history
-auto-install
 tramp
 *.elc
+
+######################################################################
+# 基本的に package でインストールしたいが、そうはいかないものについては
+# auto-install で lisp/autoinstall 下にインストールする。
+# ignore していない（管理対象にしている）ファイルは既に一時配布元がクローズして
+# いるなどの理由で、手元にとっておかないと詰むやつ
+######################################################################
 lisp/auto-install/*
 lisp/*.el
-lisp/apel-10.8
-lisp/howm-*
-lisp/ecb-2.40/
-lisp/jde-2.3.5.1/
-lisp/jdee-2.4.0.1/
-lisp/linger/
-lisp/rhtml/
-lisp/cedet-1.0
-lisp/semantic.cache
-lisp/emacs-w3m-1.4.4/
 lisp/emacs-inertial-scroll/
 lisp/html-fold/
+
+# mew が使う mew-w3m.el がこの中にあるので、消しちゃだめ
+lisp/emacs-w3m-*
 
 games
 .DS_Store
