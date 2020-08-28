@@ -3,7 +3,7 @@
 ;; 
 (require 'auto-complete)
 (require 'auto-complete-config)
-(require 'auto-complete-etags)
+(require 'ac-etags)
 (global-auto-complete-mode t)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/lisp/auto-complete/dict")
 (ac-config-default)
