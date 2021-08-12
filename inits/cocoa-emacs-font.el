@@ -7,6 +7,11 @@
 
 (create-fontset-from-ascii-font "Menlo-14:weight=normal:slant=normal" nil "menlokakugo")
 (set-fontset-font "fontset-menlokakugo"
+                  'japanese-jisx0213.2004-1
+                  (font-spec :family "ヒラギノ角ゴ ProN")
+                  nil
+                  'append)
+(set-fontset-font "fontset-menlokakugo"
                   'japanese-jisx0208
                   (font-spec :family "Hiragino Kaku Gothic ProN")
                   nil
