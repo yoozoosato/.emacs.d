@@ -8,6 +8,7 @@
 (yas-global-mode 1)
 
 ;; default ix x-popup
+;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/dropdown-list.el")
 (require 'dropdown-list)
 (setq yas-prompt-functions '(yas-dropdown-prompt))
 
