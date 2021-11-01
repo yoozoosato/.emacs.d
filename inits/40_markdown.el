@@ -7,3 +7,5 @@
    (cons '("\\.mdwn" . markdown-mode) auto-mode-alist))
 (setq markdown-command "~/bin/markdown.pl")
 
+;; ブラウザプレビュー時のエラー回避
+(setenv "LANG" "en_US.UTF-8")
