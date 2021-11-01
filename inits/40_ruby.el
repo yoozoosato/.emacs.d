@@ -9,7 +9,7 @@
 (autoload 'inf-ruby-keys "inf-ruby")
 
 ;; ruby-block.el
-;; (auto-install-from-emacswiki "ruby-block.el")
+;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/ruby-block.el")
 (require 'ruby-block)
 (ruby-block-mode t)
 ;; do overlay
@@ -20,7 +20,7 @@
 (setq ruby-block-highlight-toggle t)
 
 ;; use rvm as a default ruby interpreter
-;; http://github.com/senny/rvm.el
+;; (auto-install-from-url "https://raw.githubusercontent.com/senny/rvm.el/master/rvm.el")
 (require 'rvm)
 (rvm-use-default)
 
