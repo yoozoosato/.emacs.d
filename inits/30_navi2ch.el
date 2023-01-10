@@ -82,7 +82,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; スレ保存ディレクトリ
-(setq navi2ch-directory "~/Dropbox/Documents/.navi2ch")
+(setq navi2ch-directory "~/Library/CloudStorage/Dropbox/Documents/.navi2ch")
 
 
 ;; 3/13 API 取得対応 
