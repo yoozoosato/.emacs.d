@@ -2,7 +2,7 @@
 ;; howm
 ;; http://howm.sourceforge.jp/index-j.html
 (load-library "howm")
-(setq howm-directory "~/Dropbox/Documents/howm")
+(setq howm-directory "~/Library/CloudStorage/Dropbox/Documents/howm")
 (setq howm-menu-todo-num 10)
 
 ;; not showing 'done' on top menu
