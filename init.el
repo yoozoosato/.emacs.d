@@ -11,9 +11,9 @@
 ;;; Move this code earlier if you want to reference
 ;;; packages in your .emacs.
 (require 'package)
-; Add package-archives
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(setq package-archives
+      '(("gnu"   . "https://elpa.gnu.org/packages/")
+        ("melpa" . "https://melpa.org/packages/")))
 (package-initialize)
 
 ;; init-loader
