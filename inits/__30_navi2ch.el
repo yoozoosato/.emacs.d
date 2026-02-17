@@ -96,3 +96,8 @@
 (regexp-opt '(".2ch.net" ".5ch.net" ".bbspink.com" ".mach=ibbs.com" ".mach=i.to")) 
 "\\)\\'"))
 (setq navi2ch-list-bbstable-url "http://menu.5ch.net/bbstable.html")
+
+
+;; 
+(eval-after-load "navi2ch" 
+  (load "navi2ch-5ch"))
