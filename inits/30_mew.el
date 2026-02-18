@@ -37,6 +37,9 @@
 (function (lambda ()
 (define-key mew-draft-mode-map "\C-c\C-i" 'insert-signature-eref))))
 
+;; snippet
+(add-hook 'mew-draft-mode-hook 'yas-minor-mode)
+
 ;;
 ;; for search
 (cond
