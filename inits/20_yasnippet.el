@@ -1,22 +1,23 @@
 ;; yasnippet
 ;;
-(require 'yasnippet)
-(setq yas-snippet-dirs
-	  '("~/Dropbox/Documents/snippets/" ;; メール用 snippet とか公開できないので Dropbox で管理
-		"~/.emacs.d/snippets" ;; リポジトリに入れてpushで良いものは後ほど Dropbox から移動させる
-	  ))
-(yas-global-mode 1)
+(use-package yasnippet
+  :ensure t
+  :config
+  (setq yas-snippet-dirs
+        '("~/Dropbox/Documents/snippets/"
+          "~/.emacs.d/snippets"))
+  
+  ;; 1. グローバルモードを有効にする
+  (yas-global-mode 1)
 
-;; default ix x-popup
-;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/dropdown-list.el")
-(require 'dropdown-list)
-(setq yas-prompt-functions '(yas-dropdown-prompt))
+  ;; 2. 【重要】起動時に明示的にスニペットを読み込む
+  ;; これを入れることで M-x yas-reload-all を打ったのと同じ状態になります
+  (yas-reload-all)
 
-;; for literal and comment
-(setq yas-buffer-local-condition
-      '(or (not (or (string= "font-lock-comment-face"
-                             (get-char-property (point) 'face))
-                    (string= "font-lock-string-face"
-                             (get-char-property (point) 'face))))
-           '(require-snippet-condition . force-in-comment)))
-
+  ;; 3. 以前お伝えしたプロンプトと条件の設定
+  (setq yas-prompt-functions '(yas-completing-prompt))
+  (setq yas-buffer-local-condition
+        '(or (not (let ((face (get-char-property (point) 'face)))
+                    (or (eq face 'font-lock-comment-face)
+                        (eq face 'font-lock-string-face))))
+             '(require-snippet-condition . force-in-comment))))
