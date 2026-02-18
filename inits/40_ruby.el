@@ -49,10 +49,3 @@
 ;; ;  (setq exec-path (append (list dir) exec-path)))
 (add-hook 'ruby-mode-hook
 		  (lambda () (rinari-launch)))
-
-;; ;;; rhtml-mode
-(require 'rhtml-mode)
-(add-hook 'rhtml-mode-hook
-    (lambda ()
-	  (rinari-launch)
-	  (setq abbrev-mode nil)))

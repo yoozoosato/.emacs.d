@@ -29,7 +29,15 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
- '(browse-url-browser-function 'browse-url-default-macosx-browser))
+ '(browse-url-browser-function 'browse-url-default-macosx-browser)
+ '(package-selected-packages
+   '(ac-cider ac-etags auto-async-byte-compile consult csharp-mode dash
+			  deferred e2wm exec-path-from-shell helm howm init-loader
+			  json-mode key-chord magit marginalia
+			  markdown-preview-eww markdown-preview-mode mew migemo
+			  nyan-mode orderless php-mode pos-tip rainbow-delimiters
+			  rinari typescript-mode vertico viewer w3m yaml-mode
+			  yasnippet)))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
