@@ -73,21 +73,9 @@
 (global-set-key (kbd "C-S-l") 'windmove-right)
 (global-set-key (kbd "C-S-h") 'windmove-left)
 
-
 ;; for magit
 (global-set-key (kbd "C-<f9>") 'magit-status)
 (global-set-key (kbd "M-<f9>") 'magit-log)
-
-
-;; key-chord
-;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/key-chord.el")
-(require 'key-chord)
-(setq key-chord-two-keys-delay 0.1)
-(key-chord-mode t)
-
-;; key-bind using key-chord
-(key-chord-define-global "jk" 'view-mode)
-(key-chord-define-global "hj" 'undo)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
