@@ -7,7 +7,7 @@
 ;; (load "term/bobcat")
 ;; (when (fboundp 'terminal-init-bobcat) (terminal-init-bobcat))
 
-(define-key global-map "\C-xk" 'kill-this-buffer)
+(define-key global-map "\C-xk" 'kill-current-buffer)
 
 ;; input non ascii characters in mini buffer while incremental-search
 (define-key isearch-mode-map "\C-k" 'isearch-edit-string)
