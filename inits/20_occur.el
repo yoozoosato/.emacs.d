@@ -10,16 +10,16 @@
 ;; 
 ;; isearch-occur
 ;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/occur-schroeder.el")
-(require 'occur-schroeder)
+;;(require 'occur-schroeder)
 (define-key isearch-mode-map (kbd "M-s o") 'isearch-occur)
 
-;; 
-;; moccur 
-;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/color-moccur.el")
-(require 'color-moccur)
-(setq moccur-split-word t)
+;; ;; 
+;; ;; moccur 
+;; ;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/color-moccur.el")
+;; (require 'color-moccur)
+;; (setq moccur-split-word t)
 
-;; 
-;; moccur-edit
-;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/moccur-edit.el")
-(require 'moccur-edit)
+;; ;; 
+;; ;; moccur-edit
+;; ;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/moccur-edit.el")
+;; (require 'moccur-edit)

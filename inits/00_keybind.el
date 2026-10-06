@@ -47,13 +47,13 @@
 ;; accelerate
 ;; https://www.emacswiki.org/cgi-bin/wiki/accelerate.el
 ;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/accelerate.el")
-(require 'accelerate)
+(when (require 'accelerate nil t)
 (accelerate previous-line '(1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
 (accelerate next-line '(1 1 1 1 1  1 1 1 1 2 2 2 2 2 2 2 3 3))
 (accelerate smooth-scroll-down '(1 1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
 (accelerate smooth-scroll-up '(1 1 1 1 1 2 2 2 2 2 2 2 3 3))
 (accelerate dired-previous-line '(1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
-(accelerate dired-next-line '(1 1 1 1 1 1 2 2 2 2 2 2 2 3 3))
+(accelerate dired-next-line '(1 1 1 1 1 1 2 2 2 2 2 2 2 3 3)))
 
 ;; Dynamic macro
 ;; http://www.pitecan.com/DynamicMacro/

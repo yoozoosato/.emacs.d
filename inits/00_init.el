@@ -44,4 +44,6 @@
 
 ;; exec-path-from-shell
 ;; https://github.com/yoozoosato/.emacs.d/issues/7
-(exec-path-from-shell-initialize)
+(when (and (eq system-type 'darwin)
+           (require 'exec-path-from-shell nil t))
+  (exec-path-from-shell-initialize))
