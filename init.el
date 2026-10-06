@@ -31,13 +31,24 @@
    [default default default italic underline success warning error])
  '(browse-url-browser-function 'browse-url-default-macosx-browser)
  '(package-selected-packages
-   '(ac-cider ac-etags auto-async-byte-compile consult csharp-mode dash
-			  deferred e2wm exec-path-from-shell helm howm init-loader
-			  json-mode key-chord magit marginalia
+   '(ac-cider ac-emmet ac-emoji ac-etags ac-html ac-html-bootstrap
+			  auto-async-byte-compile clojure-mode consult csharp-mode
+			  dash deferred e2wm e2wm-R e2wm-bookmark e2wm-direx
+			  e2wm-pkgex4pl e2wm-sww e2wm-term exec-path-from-shell
+			  helm howm init-loader json-mode key-chord magit
+			  magit-annex magit-browse-commit magit-commit-mark
+			  magit-delta magit-diff-flycheck magit-filenotify
+			  magit-find-file magit-gerrit magit-gh magit-gh-pulls
+			  magit-git-toolbelt magit-gitflow magit-gitlab magit-ido
+			  magit-imerge magit-lfs magit-org-todos magit-p4
+			  magit-patch-changelog magit-popup magit-pre-commit
+			  magit-prime magit-rbr magit-reviewboard magit-section
+			  magit-standup magit-stats magit-stgit magit-tbdiff
+			  magit-todos magit-topgit magit-vcsh marginalia
 			  markdown-preview-eww markdown-preview-mode mew migemo
 			  nyan-mode orderless php-mode pos-tip rainbow-delimiters
-			  rinari typescript-mode vertico viewer w3m yaml-mode
-			  yasnippet)))
+			  rinari typescript-mode vertico viewer w3m yaml
+			  yaml-imenu yaml-mode yasnippet)))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

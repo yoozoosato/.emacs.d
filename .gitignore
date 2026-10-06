@@ -32,7 +32,11 @@ places
 
 eshell
 recentf
+recentf.eld
 
 network-security.data
 kkcrc
 history
+
+# for Windows PC
+server

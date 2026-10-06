@@ -8,17 +8,6 @@
 (autoload 'run-ruby "inf-ruby")
 (autoload 'inf-ruby-keys "inf-ruby")
 
-;; ruby-block.el
-;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/ruby-block.el")
-(require 'ruby-block)
-(ruby-block-mode t)
-;; do overlay
-(setq ruby-block-highlight-toggle 'overlay)
-;; display to minibuffer
-(setq ruby-block-highlight-toggle 'minibuffer)
-;; display to minibuffer and do overlay
-(setq ruby-block-highlight-toggle t)
-
 ;; use rvm as a default ruby interpreter
 ;; (auto-install-from-url "https://raw.githubusercontent.com/senny/rvm.el/master/rvm.el")
 (require 'rvm)
