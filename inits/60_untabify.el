@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 ;; 
 ;; indent with white space instead of tab
 ;; 

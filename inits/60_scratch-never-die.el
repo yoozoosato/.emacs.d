@@ -1,3 +1,5 @@
+;;; -*- lexical-binding: t; -*-*
+;;
 ;; protect *scratch* from kill-buffer
 ;; http://www-tsujii.is.s.u-tokyo.ac.jp/~yoshinag/tips/elisp_tips.html
 (defun my-make-scratch (&optional arg)
