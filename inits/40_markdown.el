@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-*
 ;; 
 ;; markdown-mode
 ;; (install-elisp "http://jblevins.org/projects/markdown-mode/markdown-mode.el")

@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-*
 ;;
 ;; js2-mode
 ;; (auto-install-from-url "http://js2-mode.googlecode.com/files/js2-mode.el")

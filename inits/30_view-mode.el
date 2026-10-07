@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-*
 ;;
 ;; view-mode
 ;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/viewer.el")

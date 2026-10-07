@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-*
 ;;
 ;; for calendar & diary
 ;; latitude and longitude are required for moon phases, sunrise and sunset

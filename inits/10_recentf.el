@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-*
 ;;
 ;; recentf-mode
 ;; (auto-install-from-emacswiki "recentf-ext.el")

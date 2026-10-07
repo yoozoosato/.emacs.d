@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-*
 ;; intertial scroll.
 ;; (auto-install-from-url "https://raw.githubusercontent.com/kiwanami/emacs-deferred/master/deferred.el")
 ;; (auto-install-from-url "https://raw.githubusercontent.com/kiwanami/emacs-inertial-scroll/master/inertial-scroll.el")

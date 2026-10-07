@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-*
 ;;
 ;; howm
 ;; http://howm.sourceforge.jp/index-j.html

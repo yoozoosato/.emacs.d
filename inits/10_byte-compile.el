@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-*
 ;;
 ;; auto-async-byte-compile
 ;; (auto-install-from-url "https://www.emacswiki.org/emacs/download/auto-async-byte-compile.el")

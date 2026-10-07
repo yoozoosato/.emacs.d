@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-*
 ;; for clojure
 (require 'clojure-mode)
 

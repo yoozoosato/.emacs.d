@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-*
 ;; window layout manager.
 ;;
 ;; use 'M-x package-list-packages' to install e2wm and window-layout
