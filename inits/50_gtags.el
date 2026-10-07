@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-*
 ;;
 ;; GNU GLOBAL(gtags)
 ;; http://www.emacswiki.org/emacs/GnuGlobal

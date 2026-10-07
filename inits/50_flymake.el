@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-*
 ;; flymake
 ;;
 (setq flymake-fringe-indicator-position 'left-fringe)

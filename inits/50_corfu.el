@@ -1,3 +1,5 @@
+;;; -*- lexical-binding: t; -*-*
+;
 ; an alternative to auto-complete mode
 (require 'corfu)
 
