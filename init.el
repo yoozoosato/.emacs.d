@@ -45,11 +45,11 @@
 			  magit-popup magit-pre-commit magit-prime magit-rbr
 			  magit-reviewboard magit-section magit-standup
 			  magit-stats magit-stgit magit-tbdiff magit-todos
-			  magit-topgit magit-vcsh marginalia markdown-preview-eww
-			  markdown-preview-mode mew migemo nyan-mode orderless
-			  php-mode pos-tip rainbow-delimiters rinari
-			  typescript-mode vertico viewer w3m yaml yaml-imenu
-			  yaml-mode yasnippet)))
+			  magit-topgit magit-vcsh marginalia markdown-mode
+			  markdown-preview-eww markdown-preview-mode mew migemo
+			  nyan-mode orderless php-mode pos-tip rainbow-delimiters
+			  rinari typescript-mode vertico viewer w3m yaml
+			  yaml-imenu yaml-mode yasnippet)))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
