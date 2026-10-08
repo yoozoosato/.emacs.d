@@ -22,7 +22,7 @@
 (nyan-mode)
 (nyan-start-animation)
 
-;; menu-bar
+;; menu-bar	
 (menu-bar-mode 0)
 
 ;; default length = 32. it's too long!
@@ -44,6 +44,9 @@
 ;; show file path and name on the top of the frame.
 (setq frame-title-format (format "%%f - Emacs@%s" (system-name)))
 
+;; Color theming
+(load-theme 'tango-dark t)
+
 ;; default frame settings
 (cond
  ((string-match "apple-darwin" system-configuration)
@@ -59,17 +62,17 @@
   )
  ((string-match "linux" system-configuration)
   (setq initial-frame-alist
-	(append (list
-		 '(width . 80)
-		 '(height . 46)
-		 )
-		initial-frame-alist))
+		(append (list
+				 '(width . 80)
+				 '(height . 46)
+				 )
+				initial-frame-alist))
   (setq default-frame-alist initial-frame-alist)
-  ;(set-frame-parameter nil 'alpha 75)
+										;(set-frame-parameter nil 'alpha 75)
   )
  ((string-match "mingw" system-configuration)
-  )
- )
-
-;; Color theming
-(load-theme 'tango-dark)
+  (set-face-attribute 'mode-line nil
+                      :foreground "#eeeeec")
+  (set-face-attribute 'mode-line-inactive nil
+                      :foreground "#babdb6"))
+)
