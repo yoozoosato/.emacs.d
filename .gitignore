@@ -40,3 +40,6 @@ history
 
 # for Windows PC
 server
+
+# Org-mode
+org-persist/
