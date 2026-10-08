@@ -5,3 +5,4 @@
                         (getenv "OneDriveCommercial")))
 (setq org-default-notes-file
       (expand-file-name "inbox.org" org-directory))
+(add-hook 'org-mode-hook #'visual-line-mode)
