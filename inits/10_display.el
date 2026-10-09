@@ -74,5 +74,6 @@
   (set-face-attribute 'mode-line nil
                       :foreground "#eeeeec")
   (set-face-attribute 'mode-line-inactive nil
-                      :foreground "#babdb6"))
+                      :foreground "#babdb6")
+  (set-selection-coding-system 'utf-16le-dos))
 )
