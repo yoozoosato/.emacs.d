@@ -29,7 +29,6 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
- '(browse-url-browser-function 'browse-url-default-macosx-browser)
  '(package-selected-packages
    '(ac-cider ac-emmet ac-emoji ac-etags ac-html ac-html-bootstrap
 			  auto-async-byte-compile clojure-mode consult corfu
@@ -47,9 +46,9 @@
 			  magit-stats magit-stgit magit-tbdiff magit-todos
 			  magit-topgit magit-vcsh marginalia markdown-mode
 			  markdown-preview-eww markdown-preview-mode mew migemo
-			  nyan-mode orderless php-mode pos-tip rainbow-delimiters
-			  rinari typescript-mode vertico viewer w3m yaml
-			  yaml-imenu yaml-mode yasnippet)))
+			  nyan-mode orderless ox-mediawiki php-mode pos-tip
+			  rainbow-delimiters rinari typescript-mode vertico viewer
+			  w3m yaml yaml-imenu yaml-mode yasnippet)))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
