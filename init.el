@@ -34,13 +34,13 @@
 			  auto-async-byte-compile clojure-mode consult corfu
 			  csharp-mode dash deferred e2wm e2wm-R e2wm-bookmark
 			  e2wm-direx e2wm-pkgex4pl e2wm-sww e2wm-term
-			  exec-path-from-shell helm howm init-loader json-mode
-			  key-chord magit magit-annex magit-browse-commit
-			  magit-commit-mark magit-delta magit-diff-flycheck
-			  magit-filenotify magit-find-file magit-gerrit magit-gh
-			  magit-gh-pulls magit-git-toolbelt magit-gitflow
-			  magit-gitlab magit-ido magit-imerge magit-lfs
-			  magit-org-todos magit-p4 magit-patch-changelog
+			  exec-path-from-shell helm howm init-loader js2-mode
+			  json-mode key-chord magit magit-annex
+			  magit-browse-commit magit-commit-mark magit-delta
+			  magit-diff-flycheck magit-filenotify magit-find-file
+			  magit-gerrit magit-gh magit-gh-pulls magit-git-toolbelt
+			  magit-gitflow magit-gitlab magit-ido magit-imerge
+			  magit-lfs magit-org-todos magit-p4 magit-patch-changelog
 			  magit-popup magit-pre-commit magit-prime magit-rbr
 			  magit-reviewboard magit-section magit-standup
 			  magit-stats magit-stgit magit-tbdiff magit-todos

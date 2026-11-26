@@ -7,8 +7,9 @@
       (expand-file-name "inbox.org" org-directory))
 (add-hook 'org-mode-hook #'visual-line-mode)
 
-
+;; --------------------------------------------------
 ;; Org-mode で Markdown エクスポートを有効化
+;; --------------------------------------------------
 (with-eval-after-load 'org
   (require 'ox-md))
 
@@ -33,6 +34,33 @@
         (replace-regexp-in-string "^\\([ \t]*[-+*]\\)[ \t]+" "\\1 " result))))
   (advice-add 'org-md-item :around #'my/org-md-item-single-space))
 
+;; --------------------------------------------------
 ;; Org-mode から MediaWiki 形式へのエクスポートを有効化
+;; --------------------------------------------------
 (with-eval-after-load 'org
   (require 'ox-mediawiki))
+
+;; --------------------------------------------------
+;; Org-mode タスク管理・アジェンダ基本設定
+;; --------------------------------------------------
+
+;; 1. tasks.org のパスを定義
+(setq my/org-tasks-file (expand-file-name "tasks.org" org-directory))
+
+;; 2. アジェンダ機能の検索対象ファイルリスト
+;; (今後ファイルが増えたらここに追加、またはディレクトリ指定も可能)
+(setq org-agenda-files (list org-default-notes-file my/org-tasks-file))
+
+;; 3. TODO ステータスの遷移設定 (TODO -> DOING -> DONE)
+(with-eval-after-load 'org
+  (setq org-todo-keywords
+        '((sequence "TODO(t)" "DOING(i)" "|" "DONE(d)")))
+  
+  ;; 4. 全局ショートカットキーの登録
+  ;; C-c a でアジェンダメニューを開く
+  (define-key global-map (kbd "C-c a") 'org-agenda))
+
+
+(with-eval-after-load 'org
+  ;; 見出しやリストに応じた自動インデントを行わない
+  (setq org-adapt-indentation nil))
